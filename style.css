@@ -1,0 +1,299 @@
+
+body{
+    position: absolute;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+   background-color: rgb(104, 30, 201);
+} 
+    .heades{
+        background: chartreuse;
+        line-height: 50px;
+        position: sticky;
+        top: 0;
+        display:flex;
+        align-items: center;
+        flex-direction: none;  
+}
+
+    
+}
+@keyframes loop {
+    0% {
+      transform: translateX(0);
+      
+    }
+    100% {
+      transform: translateX(100%);
+    }  
+}
+
+    .kool{
+    margin-left: 312px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: coral;
+    width: fit-content;
+}
+.kool:hover{
+    color: blue;
+    transition: color 1.5 ease;
+}
+
+    .posl{
+    display: block;
+    color: rgb(76, 237, 27);
+    margin-top: 80px;
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+}
+    .posl :hover{
+        background-color: blue;
+        transition: 1.5 ease;
+    }
+    .zob{
+        width: 300px;
+        height: 300px;
+        display: inline-flex;
+        align-items: stretch;
+        flex-direction: column;   
+    }
+    .zob2{
+        display: inline-flex;width: 300px;height: 300px;
+        padding-left: 100px;
+        flex-direction: column
+    }
+    
+   .nayavn{
+    padding-left: 15px;
+   font-size: 25px;
+   font-weight: bold;
+   
+}
+.opus{
+    font-family:'Times New Roman';
+    background: greenyellow;
+}
+.price{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+@media (max-width:1440px){
+    .heades{
+        width: 1440px;
+        line-height: 44px;
+    }
+    .kool {
+        display: flex;
+        padding-left: 660px;
+    }
+    .zob {
+        width: 500px;
+        height: 500px;
+        padding-left: 54px;;
+    }
+    .zob2{
+        width: 500px;
+        height: 500px;
+        padding-left: 320px;
+    }
+}
+@media (max-width:430px){
+    .heades{
+        width: 428px;
+        line-height: 30px;
+        height: 87px;
+    }
+    .nav-list{
+        margin-left: -761px;
+    }
+    .video {
+        width: 147px;
+        height: 81px;
+    }
+    .zob {
+        width: 180px;
+        height: 145px;
+        padding-left: 23px;
+    }
+    .zob2 {
+        width: 180px;
+        height: 145px;
+        padding-left: 15px;
+    }
+    .posl {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+   
+    .kool{
+        font-size: 19px;
+    }
+    .nayavn {
+        font-size: 18px;
+        height: 5px;
+    }
+    .opus{
+        font-size: 14px;
+    }
+}
+@media (max-width:403px){
+    .heades{
+        width: 402px;
+        line-height: 30px;
+        height: 81px;
+    }
+    .nav-list{
+        margin-left: -780px;
+    }
+    .video {
+        width: 83px;
+        height: 79px;
+    }
+    .zob {
+        width: 153px;
+        height: 145px;
+        padding-left: 24px;
+    }
+    .zob2 {
+        width: 153px;
+        height: 145px;
+        padding-left: 15px;
+    }
+    .posl {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    
+    .kool{
+        font-size: 19px;
+    }
+    .nayavn {
+        font-size: 15px;
+        height: 5px;
+    }
+    .opus{
+        font-size: 14px;
+    }
+}
+@media (max-width:390px){
+    .heades{
+        width: 386px;
+        line-height: 30px;
+        height: 81px;
+    }
+    .nav-list{
+        margin-left: -799px;
+    }
+    .video {
+        width: 83px;
+        height: 79px;
+    }
+    .zob {
+        width: 153px;
+        height: 145px;
+        padding-left: 31px;
+    }
+    .zob2 {
+        width: 153px;
+        height: 145px;
+        padding-left: 15px;
+    }
+    .posl {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    
+    .kool{
+        font-size: 19px;
+    }
+    .nayavn {
+        font-size: 15px;
+        height: 5px;
+    }
+    .opus{
+        font-size: 14px;
+    }
+}
+@media (max-width:375px){
+    .heades{
+        width: 374px;
+        line-height: 30px;
+        height: 81px;
+    }
+    .nav-list{
+        margin-left: -887px;
+    }
+    .video {
+        width: 83px;
+        height: 79px;
+    }
+    .zob {
+        width: 153px;
+        height: 145px;
+        padding-left: 24px;
+    }
+    .zob2 {
+        width: 153px;
+        height: 145px;
+        padding-left: 15px;
+    }
+    .posl {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    
+    .kool{
+        font-size: 19px;
+    }
+    .nayavn {
+        font-size: 15px;
+        height: 5px;
+    }
+    .opus{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:362px){
+    .heades{
+        width: 361px;
+        line-height: 30px;
+        height: 87px;
+    }
+    .nav-list{
+        margin-left: -946px;
+    }
+    .video {
+        width: 147px;
+        height: 87px;
+    }
+    .zob {
+        width: 130px;
+        height: 130px;
+        padding-left: 36px;
+    }
+    .zob2 {
+        width: 130px;
+        height: 130px;
+        padding-left: 15px;
+    }
+    .posl {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+  
+    .kool{
+        font-size: 19px;
+    }
+    .nayavn {
+        font-size: 13px;
+        height: 5px;
+    }
+    .opus{
+        font-size: 14px;
+    }
+}
