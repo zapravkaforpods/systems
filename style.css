@@ -14,14 +14,8 @@ body{
         align-items: center;
         flex-direction: none;  
 }
-@keyframes loop {
-    0% {
-      transform: translateX(0);
-      
-    }
-    100% {
-      transform: translateX(100%);
-    }  
+.logo{
+    height: 115px;
 }
 
     .kool{
@@ -105,8 +99,11 @@ body{
         line-height: 30px;
         height: 87px;
     }
+   .logo{
+        height: 79px;
+    }
     .nav-list{
-        margin-left: -761px;
+        margin-left: -836px;
     }
     .video {
         width: 147px;
@@ -144,8 +141,11 @@ body{
         line-height: 30px;
         height: 81px;
     }
+    .logo {
+        height: 77px;
+    }
     .nav-list{
-        margin-left: -780px;
+        margin-left: -857px;
     }
     .video {
         width: 83px;
@@ -184,7 +184,7 @@ body{
         height: 81px;
     }
     .nav-list{
-        margin-left: -799px;
+        margin-left: -870px;
     }
     .video {
         width: 83px;
@@ -263,7 +263,7 @@ body{
         height: 87px;
     }
     .nav-list{
-        margin-left: -946px;
+        margin-left: -899px;
     }
     .video {
         width: 147px;
