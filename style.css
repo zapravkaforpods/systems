@@ -86,10 +86,12 @@ body{
         width: 1440px;
         line-height: 44px;
     }
-  
+  .nav-list{
+      padding-left: 1086px;
+  }
     .kool {
         display: flex;
-        padding-left: 1086px;
+    
         padding:0;
     }
     .zob {
