@@ -34,6 +34,7 @@ body{
     text-decoration: none;
     color: coral;
     width: fit-content;
+    padding:0;
 }
 .kool:hover{
     color: blue;
@@ -111,7 +112,7 @@ body{
         height: 79px;
     }
     .nav-list{
-        margin-left: -836px;
+        margin-left: -171px;
     }
     .video {
         width: 147px;
@@ -153,7 +154,7 @@ body{
         height: 77px;
     }
     .nav-list{
-        margin-left: -857px;
+        margin-left: -196px;
     }
     .video {
         width: 83px;
@@ -192,7 +193,7 @@ body{
         height: 81px;
     }
     .nav-list{
-        margin-left: -870px;
+        margin-left: -212px;
     }
     .video {
         width: 83px;
@@ -231,7 +232,7 @@ body{
         height: 81px;
     }
     .nav-list{
-        margin-left: -887px;
+        margin-left: -224px;
     }
     .video {
         width: 83px;
@@ -271,7 +272,7 @@ body{
         height: 87px;
     }
     .nav-list{
-        margin-left: -899px;
+        margin-left: -242px;
     }
     .video {
         width: 147px;
