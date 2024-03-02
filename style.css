@@ -87,6 +87,9 @@ body{
         width: 1440px;
         line-height: 44px;
     }
+    .nav-list {
+        padding-left: 725px
+    }
     .kool {
         display: flex;
         padding-left: 660px;
