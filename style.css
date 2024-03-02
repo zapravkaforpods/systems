@@ -91,7 +91,8 @@ body{
     }
     .kool {
         display: flex;
-        padding-left: 660px;
+        padding-left: 334px;
+        padding:0;
     }
     .zob {
         width: 500px;
