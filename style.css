@@ -13,11 +13,19 @@ body{
         display:flex;
         align-items: center;
         flex-direction: none;  
-}
+    }
 .logo{
     height: 115px;
+    animation: logo-spin 3.5s linear infinite;
 }
-
+@keyframes logo-spin{
+    from {
+        transform: rotate(0deg);
+}
+    to {
+        transform: rotate(360deg);
+    }
+}
     .kool{
     margin-left: 312px;
     font-family: 'Times New Roman', Times, serif;
