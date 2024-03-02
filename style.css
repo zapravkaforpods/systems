@@ -27,14 +27,13 @@ body{
     }
 }
     .kool{
-    margin-left: 312px;
+    
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     color: coral;
-    width: fit-content;
-    padding:0;
+   
 }
 .kool:hover{
     color: blue;
