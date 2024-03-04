@@ -1,4 +1,3 @@
-
 body{
     position: absolute;
     margin: 0;
@@ -6,7 +5,7 @@ body{
    background-image:url(image/doshcka.jpg);
 } 
     .heades{
-        background: black;
+        background: #ac3434;
         line-height: 50px;
         position: sticky;
         top: 0;
@@ -71,9 +70,8 @@ body{
    font-weight: bold;
 }
 .opus{
-    font-family:'Times New Roman';
-    background: black;
-    color: aqua;
+    font-family:'Berkshire swash';
+    color: brown;
 }
 .price{
     text-align: center;
