@@ -13,6 +13,7 @@ body{
     list-style: none;
     background: #e54615;
     position: relative;
+     text-align: center;
  }
  .menu a {
     text-decoration: none;
