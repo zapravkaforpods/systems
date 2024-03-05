@@ -4,6 +4,39 @@ body{
     font-family: 'Raleway', sans-serif;
    background-image:url(image/doshcka.jpg);
 } 
+ .menu {
+    display: flex;
+    padding-left: 538px;
+ }
+ .menu li {
+    width: 100px;
+    list-style: none;
+    background: #e54615;
+    position: relative;
+ }
+ .menu a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.menu a:hover{
+    background: rgb(236, 185, 66);
+}
+.menu ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+}
+.menu li:hover>ul{
+    display: block;
+}
+    
     .heades{
         background: #ac3434;
         line-height: 50px;
@@ -35,8 +68,8 @@ body{
    
 }
 .kool:hover{
-    color: aqua;
-    transition: color 1.5 ease;
+    color: rgb(236, 185, 66);
+    transition:rgb(236, 185, 66);
 }
 
     .posl{
@@ -84,7 +117,7 @@ body{
         line-height: 44px;
     }
   .nav-list{
-      padding-left: 1048px;
+      padding-left: 413px;
   }
     .kool {
         display: flex;
@@ -108,11 +141,14 @@ body{
         line-height: 30px;
         height: 87px;
     }
+    .menu {
+        padding-left: 27px;
+     }
    .logo{
         height: 79px;
     }
     .nav-list{
-        margin-left: -870px;
+        margin-left: -373px;
     }
     .video {
         width: 147px;
@@ -151,11 +187,14 @@ body{
         line-height: 30px;
         height: 81px;
     }
+    .menu {
+        padding-left: 24px;
+     }
     .logo {
         height: 77px;
     }
     .nav-list{
-        margin-left: -891px;
+        margin-left: -378px;
     }
     .video {
         width: 83px;
@@ -164,7 +203,7 @@ body{
     .zob {
         width: 153px;
         height: 145px;
-        padding-left: 36px;
+        padding-left: 38px;
     }
     .zob2 {
         width: 153px;
@@ -177,7 +216,7 @@ body{
     }
     
     .kool{
-        font-size: 19px;
+        font-size: 17px;
         padding:0;
     }
     .nayavn {
@@ -194,8 +233,11 @@ body{
         line-height: 30px;
         height: 81px;
     }
+    .menu {
+        padding-left: 19px;
+     }
     .nav-list{
-        margin-left: -906px;
+        margin-left: -391px;
     }
     .video {
         width: 83px;
@@ -217,7 +259,7 @@ body{
     }
     
     .kool{
-        font-size: 19px;
+        font-size: 18px;
         padding:0;
     }
     .nayavn {
@@ -234,8 +276,11 @@ body{
         line-height: 30px;
         height: 81px;
     }
+    .menu {
+        padding-left: 19px;
+     }
     .nav-list{
-        margin-left: -924px;
+        margin-left: -388px;
     }
     .video {
         width: 83px;
@@ -257,7 +302,7 @@ body{
     }
     
     .kool{
-        font-size: 19px;
+        font-size: 17px;
         padding:0;
     }
     .nayavn {
@@ -275,8 +320,11 @@ body{
         line-height: 30px;
         height: 87px;
     }
+    .menu {
+        padding-left: 17x;
+     }
     .nav-list{
-        margin-left: -935px;
+        margin-left: -394px;
     }
     .video {
         width: 147px;
@@ -298,7 +346,7 @@ body{
     }
   
     .kool{
-        font-size: 19px;
+        font-size: 16px;
         padding:0;
     }
     .nayavn {
