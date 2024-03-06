@@ -32,9 +32,7 @@ body{
     border: 3px solid black;
       user-select: none;
 }
-.menu a:hover{
-    background: rgb(31, 197, 73);
-}
+
 .menu a:active{
     background: rgb(80, 255, 103);
 }
