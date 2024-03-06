@@ -9,7 +9,7 @@ body{
     padding-left: 538px;
  }
  .menu li {
-    width: 107px;
+    width: 112px;
     list-style: none;
     background: #e54615;
     position: relative;
@@ -151,7 +151,7 @@ body{
         height: 87px;
     }
     .menu {
-        padding-left: 27px;
+        padding-left: 19px;
      }
    .logo{
         height: 79px;
