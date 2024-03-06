@@ -23,10 +23,12 @@ body{
     padding: 0 10px;
     line-height: 40px;
     transition: all .5s;
+    color: azure;
 }
-.menu a:hover{
-    background: rgb(236, 185, 66);
+.menu a:active{
+    background: coral;
 }
+
 .menu ul {
     position: absolute;
     left: 0;
