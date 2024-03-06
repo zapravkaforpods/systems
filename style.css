@@ -5,11 +5,12 @@ body{
    background-image:url(image/doshcka.jpg);
 } 
  .menu {
+    display: -webkit-box;
     display: flex;
     padding-left: 538px;
  }
  .menu li {
-    width: 112px;
+    width: 107px;
     list-style: none;
     background: #e54615;
     position: relative;
@@ -32,7 +33,7 @@ body{
     background: rgb(31, 197, 73);
 }
 .menu a:active{
-    background: coral;
+    background: rgb(80, 255, 103);
 }
 
 .menu ul {
@@ -49,7 +50,7 @@ body{
     .heades{
         background: #ac3434;
         line-height: 50px;
-        position: sticky;
+        position:-webkit-sticky;
         top: 0;
         display:flex;
         align-items: center;
@@ -68,7 +69,7 @@ body{
     }
 }
     .kool{
-    
+    display: -webkit-flex;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
@@ -78,7 +79,7 @@ body{
 }
 .kool:hover{
     color: rgb(236, 185, 66);
-    transition:rgb(236, 185, 66);
+    transition:color 0.3s;
 }
 
     .posl{
@@ -89,10 +90,8 @@ body{
     font-family: 'Georgia';
     text-align: center;
 }
-    .posl :hover{
-        background-color: blue;
-        transition: 1.5 ease;
-    }
+  
+    
     .zob{
         width: 300px;
         height: 300px;
@@ -110,6 +109,7 @@ body{
     padding-left: 15px;
    font-size: 25px;
    font-weight: bold;
+   max-height: 5px;
 }
 .opus{
     font-family:'Berkshire swash';
@@ -151,7 +151,7 @@ body{
         height: 87px;
     }
     .menu {
-        padding-left: 19px;
+        padding-left: 27px;
      }
    .logo{
         height: 79px;
@@ -366,3 +366,4 @@ body{
         font-size: 14px;
     }
 }
+
