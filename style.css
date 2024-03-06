@@ -17,6 +17,7 @@ body{
     position: relative;
      text-align: center;
      border-radius: 15px; 
+      user-select: none;
  }
  .menu a {
     text-decoration: none;
@@ -29,6 +30,7 @@ body{
     color: azure;
     border-radius: 15px;
     border: 3px solid black;
+      user-select: none;
 }
 .menu a:hover{
     background: rgb(31, 197, 73);
