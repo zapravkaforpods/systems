@@ -68,6 +68,7 @@ body{
         align-items: center;
         flex-direction: none;  
         position: sticky;
+        width:100%;
 }
 
 .order-button {
