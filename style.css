@@ -238,6 +238,9 @@ body{
         line-height: 30px;
         height: 81px;
     }
+    .burger-icon{
+        margin-left: 98px;
+    }
     .logo {
         height: 77px;
     }
