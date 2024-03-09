@@ -1,7 +1,7 @@
 body{  
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    background-image:url(image/doshcka.jpg);
+    background-color: mintcream;
     position: absolute;
 }
 .burger-menu {
@@ -14,7 +14,7 @@ body{
     font-size: 42px;
     user-select: none;
     transition: transform 0.3s;
-    margin-left: 40px;
+    margin-left: 107px;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -26,7 +26,7 @@ body{
     list-style: none;
     position: absolute;
     top: 59px;
-    left: 0;
+    left: -71px;
     background-color: #5ec82169;
     padding: 38px;
     margin-top: -4px;
@@ -54,6 +54,7 @@ body{
     color: white;
     font-family: 'GEORGIA';
 }
+
 .menu-items li a:hover{
     background: rgb(94, 233, 7);
 }
@@ -66,8 +67,25 @@ body{
         display:flex;
         align-items: center;
         flex-direction: none;  
+        position: sticky;
 }
 
+.order-button {
+    background-color: #181717;
+    border: none;
+    color: rgb(174 250 5);
+    padding: 6px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid #13ff4e;
+    font-family: inherit;
+  }
+  
 .nav-list{
         padding: 0;
         margin: 0;
@@ -75,16 +93,6 @@ body{
 
 .logo{
     height: 115px;
-    animation: logo-spin 3.5s linear infinite;
-}
-
-@keyframes logo-spin{
-    from {
-        transform: rotate(0deg);
-}
-    to {
-        transform: rotate(360deg);
-}
 }
 
 .kool{
@@ -93,7 +101,8 @@ body{
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: greenyellow;  
+    color: greenyellow;
+   
 }
 
 .kool:hover{
@@ -115,13 +124,15 @@ body{
         height: 300px;
         display: inline-flex;
         align-items: stretch;
-        flex-direction: column;   
+        flex-direction: column;
+        mix-blend-mode: darken;   
 }
 
 .zob2{
         display: inline-flex;width: 300px;height: 300px;
         padding-left: 100px;
-        flex-direction: column
+        flex-direction: column;
+        mix-blend-mode: darken; 
 }
     
 .nayavn{
@@ -147,13 +158,19 @@ body{
         width: 1440px;
         line-height: 44px;
     }
+    
+    .burger-icon{
+        margin-left: 542px;
+    }
   .nav-list{
-    margin-left: 977px;
+    padding: 0;
+    margin: 0;
+    margin-left: 487px;
+    display: flex;
   }
     .kool {
         display: flex;
-    
-        padding:0;
+        padding:0 12px;
     }
     .zob {
         width: 500px;
@@ -177,7 +194,11 @@ body{
         height: 79px;
     }
     .nav-list{
-        margin-left: 95px;
+        margin-left:  103px;
+        display: block;
+    }
+    .burger-icon{
+        margin-left: 107px;
     }
     .video {
         width: 147px;
@@ -343,6 +364,9 @@ body{
         line-height: 30px;
         height: 87px;
     }
+    .burger-icon{
+        margin-left: 94px;
+    }
     .nav-list{
         margin-left: 52px;
     }
@@ -377,4 +401,9 @@ body{
         font-size: 14px;
     }
 }
+
+
+
+
+
 
