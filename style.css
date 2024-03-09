@@ -188,7 +188,7 @@ body{
 
 @media (max-width:430px){
     .heades{
-        width: body{  
+    width:100%;  
     margin: 0;
     font-family: 'Raleway', sans-serif;
     background-color: mintcream;
