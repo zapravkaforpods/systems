@@ -127,18 +127,17 @@ body{
         display: inline-flex;
         align-items: stretch;
         flex-direction: column;
-        mix-blend-mode: darken;   
+        mix-blend-mode: normal;   
 }
 
 .zob2{
         display: inline-flex;width: 300px;height: 300px;
         padding-left: 100px;
         flex-direction: column;
-        mix-blend-mode: darken; 
+        mix-blend-mode: normal;
 }
     
 .nayavn{
-        padding-left: 15px;
         font-size: 25px;
         font-weight: bold;
         max-height: 5px;
@@ -371,6 +370,9 @@ body{
         line-height: 30px;
         height: 87px;
     }
+    .body{
+        width:362px;
+            }
     .burger-icon{
         margin-left: 94px;
     }
@@ -409,8 +411,17 @@ body{
     }
 }
 
+@media (max-width:422px){
+    .burger-icon{
+        margin-left: 100px;
+    }
+}
 
-
+@media (max-width:413px){
+    .burger-icon{
+        margin-left: 92px;
+    }
+}
 
 
 
