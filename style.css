@@ -1,3 +1,24 @@
+.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+#mode-toggle{
+    background-color: #f73636;
+    width: 78px;
+    border-radius: 30px;
+    border: 4px solid white;
+    color: antiquewhite;
+    
+}
+
+
+
 .body{  
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -41,7 +62,8 @@
 }
 
 .menu-items li {
-    margin-bottom: 10px;
+    margin-bottom: 21px;
+    width: 148px;
 }
 
 .menu-items a {
@@ -141,11 +163,13 @@
         font-size: 25px;
         font-weight: bold;
         max-height: 5px;
+        color: #02f11e;
+        font-family: fantasy;
 }
 
 .opus{
     font-family:'Berkshire swash';
-    color: brown;
+    color: #daff22;
 }
 
 .price{
