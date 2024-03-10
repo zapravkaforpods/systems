@@ -448,8 +448,11 @@
 
 @media (max-width: 530px){
 .heades {
-    width: 537px;
-
+    width: 529px;
+}
+.nav-list {
+    margin-left: 82px;
+}
 .zob2 {
     width: 175px;
 }
@@ -459,20 +462,25 @@
     
 .nayavn {
     font-size: 16px;
+}
+    .burger-icon {
+    margin-left: 60px;
 }
 }    
 @media (max-width: 451px){
 .heades {
     width: 450px;
-
+}
 .zob2 {
     width: 165px;
 }
     .zob {
     width: 165px;
-}
-}    
+}   
 .nayavn {
     font-size: 16px;
 }
-    
+    .nav-list {
+    margin-left: -4px;  
+}
+}    
