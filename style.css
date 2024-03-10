@@ -446,5 +446,33 @@
     }
 }
 
+@media (max-width: 530px){
+.heades {
+    width: 537px;
 
+.zob2 {
+    width: 175px;
+}
+    .zob {
+    width: 175px;
+}
+    
+.nayavn {
+    font-size: 16px;
+}
+}    
+@media (max-width: 451px){
+.heades {
+    width: 450px;
 
+.zob2 {
+    width: 165px;
+}
+    .zob {
+    width: 165px;
+}
+}    
+.nayavn {
+    font-size: 16px;
+}
+    
