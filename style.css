@@ -1,11 +1,11 @@
 .dark-mode {
-    background-color: #222;
-    color: #ddd;
+    background-image: url(https://img.freepik.com/premium-vector/modern-blue-black-colorful-corporate-abstract-technology-background-vector-abstract-graphic-design-banner-pattern-presentation-background-web-template_181182-34643.jpg);
+    color: white;
 }
 
 .light-mode {
-    background-color: #fff;
-    color: #333;
+    background-image: url(https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png);    
+    color: #563636;
 }
 
 #mode-toggle{
