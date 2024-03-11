@@ -18,12 +18,12 @@
 }
 
 
-
+  
+ 
 .body{  
     margin: 0;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    width:100%;
 }
 .burger-menu {
     position: relative;
@@ -90,7 +90,7 @@
         align-items: center;
         flex-direction: none;  
         position: sticky;
-        width:100%;
+        
 }
 
 .order-button {
@@ -148,7 +148,9 @@
         display: inline-flex;
         align-items: stretch;
         flex-direction: column;
-        mix-blend-mode: normal;   
+        mix-blend-mode: normal; 
+        background-size: cover;
+
 }
 
 .zob2{
@@ -178,40 +180,51 @@
 }
 
 
-@media (max-width:1440px){
+@media (max-width:710px){
     .heades{
-        width: 1440px;
-        line-height: 44px;
+        width: 708px;
     }
-    
+    .nav-list{
+        margin-left: 208px;
+    }
     .burger-icon{
-        margin-left: 542px;
-    }
-  .nav-list{
-    padding: 0;
-    margin: 0;
-    margin-left: 487px;
-    display: flex;
-  }
-    .kool {
-        display: flex;
-        padding:0 12px;
+        margin-left: 235px;
     }
     .zob {
-        width: 500px;
-        height: 500px;
-        padding-left: 54px;;
+        width: 250px;
+        padding-left: 56px;
     }
-    .zob2{
-        width: 500px;
-        height: 500px;
-        padding-left: 320px;
+
+    .zob2 {
+        width: 250px;
+    }
+
+    .posl{
+        display: inline-flex;
+        padding-left: 119px;
+    }
+     .price{
+        padding-left: 246px;
+        display: inline-flex;    
+     }
+}
+
+@media (max-width:681px){
+    .zob2 {
+        width: 200px;
+    }
+    .zob {
+        width: 200px;
+        padding-left: 92px;
+    }
+    .nayavn {
+        font-size: 17px;
     }
 }
 
 @media (max-width:430px){
     .heades{
-        width: 100%;
+        width: 429px;
         line-height: 30px;
         height: 87px;
     }
@@ -445,42 +458,3 @@
         margin-left: 92px;
     }
 }
-
-@media (max-width: 530px){
-.heades {
-    width: 529px;
-}
-.nav-list {
-    margin-left: 82px;
-}
-.zob2 {
-    width: 175px;
-}
-    .zob {
-    width: 175px;
-}
-    
-.nayavn {
-    font-size: 16px;
-}
-    .burger-icon {
-    margin-left: 60px;
-}
-}    
-@media (max-width: 451px){
-.heades {
-    width: 450px;
-}
-.zob2 {
-    width: 165px;
-}
-    .zob {
-    width: 165px;
-}   
-.nayavn {
-    font-size: 16px;
-}
-    .nav-list {
-    margin-left: -4px;  
-}
-}    
