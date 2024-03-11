@@ -163,7 +163,7 @@
 .nayavn{
         font-size: 25px;
         font-weight: bold;
-        max-height: 5px;
+        margin-top: -7px;
         color: #02f11e;
         font-family: fantasy;
 }
@@ -171,6 +171,7 @@
 .opus{
     font-family:'Berkshire swash';
     color: #daff22;
+    margin-top: -38px;
 }
 
 .price{
