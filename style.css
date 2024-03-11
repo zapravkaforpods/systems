@@ -13,12 +13,8 @@
     width: 78px;
     border-radius: 30px;
     border: 4px solid white;
-    color: antiquewhite;
-    
+    color: antiquewhite;    
 }
-
-
-  
  
 .body{  
     margin: 0;
@@ -47,7 +43,7 @@
     list-style: none;
     position: absolute;
     top: 59px;
-    left: -105px;
+    left: 39px;
     background-color: #5ec82169;
     padding: 38px;
     margin-top: -4px;
@@ -159,6 +155,10 @@
         flex-direction: column;
         mix-blend-mode: normal;
 }
+
+.img{
+    margin-top: 25px;
+}
     
 .nayavn{
         font-size: 25px;
@@ -238,6 +238,9 @@
     }
     .burger-icon{
         margin-left: 107px;
+    }
+    .menu-items {
+      left: -88px;
     }
     .video {
         width: 147px;
