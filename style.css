@@ -4,7 +4,7 @@
 }
 
 .light-mode {
-    background-image: url(https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png);    
+    background-image: url(image/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg);    
     color: #563636;
 }
 
@@ -16,49 +16,127 @@
     color: antiquewhite;    
 }
  
-.body{  
+
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
-}
-.burger-menu {
     position: relative;
 }
 
+.header {
+    background-color: #ac3434;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.heades{
+    width: 100%;
+}
+.burger-menu{
+    text-align: end;
+    margin-top: -3em;
+    padding: 1em;
+}
 .burger-icon {
-    color: rgb(104 255 0);
-    cursor: pointer;
-    font-size: 42px;
-    user-select: none;
-    transition: transform 0.3s;
-    margin-left: 107px;
+    margin-top: -1.1em;
+    font-size: 2.2em;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    color: #77f21a;
+    background-color: black;
+    border-radius: 20px;
+    border: 4px solid;
 }
 
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+}
+
+.section {
+    flex: 1 1 100%;
+    padding: 1rem;
+}
+
+.section-1 {
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.section-2 {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer {
+    background-color: #ac3434;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+.logo {
+    height: 5rem;
+}
+
+.order-button {
+    background-color: #181717;
+    border: none;
+    color: rgb(174 250 5);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 2px solid #13ff4e;
+    font-family: inherit;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style: none;
+}
+
+.kool {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
 .menu-items {
     display: none;
     list-style: none;
-    position: absolute;
-    top: 59px;
-    left: 39px;
     background-color: #5ec82169;
-    padding: 38px;
-    margin-top: -4px;
-    padding-bottom: 27px;
     border-radius: 42px;
     border: 4px solid #2b3731ab;
+    background-image: url(image/360_F_518419158_yXXBww2r5Z3XoutBxRX8KHNZOpPjhC03.jpg);
 }
 
 .menu-items.visible {
-    display: block;
+    display: flex;
+    position: absolute;
+    top: 4.5em;
 }
 
 .menu-items li {
-    margin-bottom: 21px;
-    width: 151px;
+    margin: 2em auto;
 }
 
 .menu-items a {
@@ -72,370 +150,130 @@
     color: white;
     font-family: 'GEORGIA';
 }
-
-.menu-items li a:hover{
-    background: rgb(94, 233, 7);
-}
-
-.heades{
-        background: #ac3434;
-        line-height: 50px;
-        position:-webkit-sticky;
-        top: 0;
-        display:flex;
-        align-items: center;
-        flex-direction: none;  
-        position: sticky;
-        
-}
-
-.order-button {
-    background-color: #181717;
-    border: none;
-    color: rgb(174 250 5);
-    padding: 6px 7px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    border: 2px solid #13ff4e;
-    font-family: inherit;
-  }
-  
-.nav-list{
-        padding: 0;
-        margin: 0;
-}
-
-.logo{
-    height: 115px;
-}
-
-.kool{
-    display: -webkit-flex;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: greenyellow;
-   
-}
-
-.kool:hover{
-    color: rgb(236, 185, 66);
-    transition:color 0.3s;
-}
-
-.posl{
-        text-align: center;
-}
-   
-.zob{
-        width: 300px;
-        height: 300px;
-        display: inline-flex;
-        align-items: stretch;
-        flex-direction: column;
-        mix-blend-mode: normal; 
-        background-size: cover;
-
-}
-
-.zob2{
-        display: inline-flex;width: 300px;height: 300px;
-        padding-left: 100px;
-        flex-direction: column;
-        mix-blend-mode: normal;
-}
-
 .img{
-    margin-top: 25px;
+    max-width: 77%;
+    height: auto;
+    object-fit:contain;
 }
-    
-.nayavn{
-        font-size: 25px;
-        font-weight: bold;
-        margin-top: 7px;
-        color: #02f11e;
-        font-family: fantasy;
+.posl{
+    font-size: xxx-large;
 }
-
-.opus{
-    font-family:'Berkshire swash';
-    color: #daff22;
-    margin-top: 11px;
-}
-
 .price{
-    text-align: center;
-   
+    font-size: xxx-large;
+}
+.nayavn{
+    color: #02f11e;
+    font-size: xxx-large;
+    margin: 0;
+}
+.opus{
+    font-size: x-large;
+    margin: 1.2em;
+    font-family: cursive;
+    color: blanchedalmond;
 }
 
+.pospric{
+    display:block;
+    margin-top: 4em;
+    text-align: -webkit-center;
+}
 
-@media (max-width:710px){
+@media (max-width:990px){
+    .posl{
+        font-size: xx-large;
+    }
+    .price{
+        font-size: xx-large;
+    }
+    .nayavn{
+        font-size: xx-large;
+        margin: 0;
+    }
+    .opus{
+        font-size: x-large;
+    }
+}
+
+@media (max-width:690px){
+    .posl{
+        font-size: x-large;
+    }
+    .price{
+        font-size: x-large;
+    }
+    .nayavn{
+        font-size: x-large;
+        margin: 0;
+    }
+    .opus{
+        font-size: medium;
+    }
+}
+
+@media (min-width:560px){
+    .menu-items.visible {
+        width: 97%;
+    }
+    
+}
+
+@media (max-width:560px){
+    .logo{
+        width: 4.5em;
+        height: 4.5em;
+        padding: 0.15em;
+    }
+    .order-button{
+        font-size: 0.8rem;
+        margin-inline: 0;
+    }
+    .burger-menu{
+        width: -webkit-fill-available;
+    }
+    .menu-items.visible{
+        flex-direction: column;
+        flex-wrap: wrap;
+        right: 1em;
+    }
+    .menu-items li{
+        margin: 1em;
+        text-align: start;
+    }
+    .menu-items a {
+        margin-right: 2em;    
+    }
     .heades{
-        width: 708px;
+        height: 5em;
     }
     .nav-list{
-        margin-left: 208px;
-    }
-    .burger-icon{
-        margin-left: 235px;
-    }
-    .zob {
-        width: 250px;
-        padding-left: 56px;
-    }
-
-    .zob2 {
-        width: 250px;
-    }
-
-}
-
-@media (max-width:681px){
-    .zob2 {
-        width: 200px;
-    }
-    .zob {
-        width: 200px;
-        padding-left: 92px;
-    }
-    .nayavn {
-        font-size: 17px;
+        margin: 0.4em;
     }
 }
 
 @media (max-width:430px){
-    .heades{
-        width: 429px;
-        line-height: 30px;
-        height: 87px;
-    }
-   .logo{
-        height: 79px;
+    
+    .wer{
+        margin-top: -5.2em;
     }
     .nav-list{
-        margin-left:  103px;
-        display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4.9em;
     }
-    .burger-icon{
-        margin-left: 107px;
-    }
-    .menu-items {
-      left: -88px;
-    }
-    .video {
-        width: 147px;
-        height: 81px;
-    }
-    .zob {
-        width: 166px;
-        height: 145px;
-        padding-left: 33px;
-    }
-    .zob2 {
-        width: 166px;
-        height: 145px;
-        padding-left: 15px;
-    }
-    .posl {
-        margin-top: 25px;
-        font-size: 25px;
+    .kool{ 
+        width: 28%;
     }
    
-    .kool{
-        font-size: 19px;
-        padding:0;
+    .burger-menu{
+        margin-top: -4em;
     }
-    .nayavn {
-        font-size: 18px;
-        height: 5px;
+    .order-button{
+        margin: 0;
     }
-    .opus{
-        font-size: 14px;
+    .nayavn{
+        font-size: large;
     }
 }
 
-
-@media (max-width:403px){
-    .heades{
-        width: 402px;
-        line-height: 30px;
-        height: 81px;
-    }
-    .burger-icon{
-        margin-left: 98px;
-    }
-    .logo {
-        height: 77px;
-    }
-    .nav-list{
-        margin-left: 87px;
-    }
-    .video {
-        width: 83px;
-        height: 79px;
-    }
-    .zob {
-        width: 153px;
-        height: 145px;
-        padding-left: 38px;
-    }
-    .zob2 {
-        width: 153px;
-        height: 145px;
-        padding-left: 15px;
-    }
-   
-    
-    .kool{
-        font-size: 17px;
-        padding:0;
-    }
-    .nayavn {
-        font-size: 15px;
-        height: 5px;
-    }
-    .opus{
-        font-size: 14px;
-    }
-}
-
-@media (max-width:390px){
-    .heades{
-        width: 386px;
-        line-height: 30px;
-        height: 81px;
-    }
-    .nav-list{
-        margin-left: 66px;
-    }
-    .video {
-        width: 83px;
-        height: 79px;
-    }
-    .zob {
-        width: 153px;
-        height: 145px;
-        padding-left: 31px;
-    }
-    .zob2 {
-        width: 153px;
-        height: 145px;
-        padding-left: 15px;
-    }
-    .posl {
-        margin-top: 25px;
-        font-size: 25px;
-    }
-    
-    .kool{
-        font-size: 18px;
-        padding:0;
-    }
-    .nayavn {
-        font-size: 15px;
-        height: 5px;
-    }
-    .opus{
-        font-size: 14px;
-    }
-}
-
-@media (max-width:375px){
-    .heades{
-        width: 374px;
-        line-height: 30px;
-        height: 81px;
-    }    
-    .nav-list{
-        margin-left: 56px;
-    }
-    .video {
-        width: 83px;
-        height: 79px;
-    }
-    .zob {
-        width: 153px;
-        height: 145px;
-        padding-left: 24px;
-    }
-    .zob2 {
-        width: 153px;
-        height: 145px;
-        padding-left: 15px;
-    }
-   
-    
-    .kool{
-        font-size: 17px;
-        padding:0;
-    }
-    .nayavn {
-        font-size: 15px;
-        height: 5px;
-    }
-    .opus{
-        font-size: 14px;
-    }
-}
-
-@media (max-width:362px){
-    .heades{
-        width: 361px;
-        line-height: 30px;
-        height: 87px;
-    }
-    .body{
-        width:362px;
-            }
-    .burger-icon{
-        margin-left: 94px;
-    }
-    .nav-list{
-        margin-left: 52px;
-    }
-    .video {
-        width: 147px;
-        height: 87px;
-    }
-    .zob {
-        width: 130px;
-        height: 130px;
-        padding-left: 36px;
-    }
-    .zob2 {
-        width: 130px;
-        height: 130px;
-        padding-left: 15px;
-    }
-    
-  
-    .kool{
-        font-size: 16px;
-        padding:0;
-    }
-    .nayavn {
-        font-size: 13px;
-        height: 5px;
-    }
-    .opus{
-        font-size: 14px;
-    }
-}
-
-@media (max-width:422px){
-    .burger-icon{
-        margin-left: 100px;
-    }
-}
-
-@media (max-width:413px){
-    .burger-icon{
-        margin-left: 92px;
-    }
-}
