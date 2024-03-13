@@ -1,5 +1,5 @@
 .dark-mode {
-    background-image: url('image/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg');
+    background-image: url('image/1234.jpg');
     color: white;
 }
 
@@ -123,10 +123,9 @@ body {
 .menu-items {
     display: none;
     list-style: none;
-    background-color: #5ec82169;
     border-radius: 42px;
     border: 4px solid #2b3731ab;
-    background-image: url('image/360_F_518419158_yXXBww2r5Z3XoutBxRX8KHNZOpPjhC03.jpg');
+    background-image: url('image/123.avif');
 }
 
 .menu-items.visible {
