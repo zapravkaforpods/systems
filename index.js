@@ -1,12 +1,10 @@
 const burgerIcon = document.querySelector('.burger-icon');
 const menuItems = document.querySelector('.menu-items');
-
 burgerIcon.addEventListener('click', () => {
     menuItems.classList.toggle('visible');
     burgerIcon.textContent = menuItems.classList.contains('visible') ? '❎' : '㊂'; 
 });
-
-
+///////////////
 const modeToggle = document.getElementById('mode-toggle');
 if (localStorage.getItem('backgroundChanged') === 'true') {
     modeToggle.style.backgroundColor = 'black'; 
@@ -23,7 +21,7 @@ modeToggle.addEventListener('click', function() {
         localStorage.setItem('backgroundChanged', 'false'); 
     }
 });
-
+///////////////
 
 const toggleButton = document.getElementById('mode-toggle');
 const body = document.body;
@@ -45,4 +43,12 @@ toggleButton.addEventListener('click', () => {
         localStorage.setItem('modeEnabled', 'false'); 
     }
 });
+///////////////
+
+const image = document.querySelector('.image');
+
+window.addEventListener('resize', () => {
+  image.width = window.innerWidth;
+});
+
 
