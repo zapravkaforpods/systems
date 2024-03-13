@@ -4,7 +4,7 @@
 }
 
 .light-mode {
-    background-image: url(https://png.pngtree.com/background/20230520/original/pngtree-hexagonal-background-in-red-and-blue-lighting-picture-image_2671214.jpg);
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=1200&h=630);
     color: #563636;
 }
 
@@ -126,7 +126,7 @@ body {
     list-style: none;
     border-radius: 42px;
     border: 4px solid #2b3731ab;
-     background-image: url(image/360_F_518419158_yXXBww2r5Z3XoutBxRX8KHNZOpPjhC03.jpg);
+     background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-dark-vector-abstract-background-picture-image_1159556.jpg);
     background-size:cover;
 }
 
@@ -155,6 +155,8 @@ body {
     max-width: 77%;
     height: auto;
     object-fit:contain;
+    border-radius: 7em;
+    border: 5px solid #0aff0d;
 }
 .posl{
     font-size: xxx-large;
@@ -226,7 +228,7 @@ body {
         padding: 0.15em;
     }
     .order-button{
-        font-size: 0.8rem;
+        font-size: 0.95rem;
         margin-inline: 0;
     }
     .burger-menu{
@@ -261,7 +263,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -4.9em;
+    margin-top: -4.75em;
     }
     .kool{ 
         width: 28%;
