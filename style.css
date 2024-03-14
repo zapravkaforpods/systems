@@ -127,7 +127,7 @@ body {
     list-style: none;
     border-radius: 42px;
     border: 4px solid #2b3731ab;
-     background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-dark-vector-abstract-background-picture-image_1159556.jpg);
+    background-image: url(https://creativo.one/lessons/les5669/01.jpg);
     background-size:cover;
 }
 
@@ -151,6 +151,21 @@ body {
     border: 3px solid white;
     color: white;
     font-family: 'GEORGIA';
+}
+@keyframes textAnimation {
+    0% { opacity: 0; transform: translateY(-20px); }
+    50% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(20px); }
+}
+
+.animated-text {
+    font-size: 24px;
+    text-align: center;
+    animation: textAnimation 3s linear infinite;
+    color: black;
+    width: fit-content;
+    background-image: url(https://wp-lessons.com/wp-content/uploads/2014/07/110-660x330.jpg.pagespeed.ce.hQkzSA0r0E.jpg);
+    border-radius: 2em;
 }
 .img{
     max-width: 77%;
