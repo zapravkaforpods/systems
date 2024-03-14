@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-    background-color: #ac3434;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1639039017_37-abrakadabra-fun-p-fon-dlya-khedera-46.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +128,7 @@ body {
     list-style: none;
     border-radius: 42px;
     border: 4px solid #2b3731ab;
-    background-image: url(https://creativo.one/lessons/les5669/01.jpg);
+    background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1639039006_26-abrakadabra-fun-p-fon-dlya-khedera-34.jpg);
     background-size:cover;
 }
 
