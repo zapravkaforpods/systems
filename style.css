@@ -180,6 +180,8 @@ body {
 }
 .price{
     font-size: xxx-large;
+    background-color: crimson;
+    border-radius: 2em;
 }
 .nayavn{
     color: #02f11e;
