@@ -245,13 +245,13 @@ body {
     margin: 0;
 }
 .flash-text {
-    color: rgb(228, 186, 16);
+    color: rgb(77, 235, 15);
     animation: flash 2s infinite;
 }
 
 @keyframes flash {
-    0% { color: rgb(0, 0, 0); }
-    100% { color: rgb(216, 119, 9); }
+    0% { color: rgb(21, 145, 176); }
+    100% { color: rgb(163, 237, 3); }
 }
 .opus{
     font-size: x-large;
