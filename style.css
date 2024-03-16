@@ -1,3 +1,46 @@
+.dropdown-content {
+    display: none;
+    position: sticky;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 2px;
+    z-index: 1;
+    width: fit-content;
+    top: 5em;
+    border-radius: 2em;
+    border: 5px solid greenyellow;
+    background-image: url(https://www.publicdomainpictures.net/pictures/290000/nahled/red-and-black-texture-background.jpg);
+}
+
+#content{
+    background: black;
+    color: white;
+    font-size: 2em;
+}
+
+.cart{
+    font-size: 20px;
+    border-radius: 12px;
+    background: #f73636;
+    border: 3px solid white;
+    color: white;
+    font-family: 'GEORGIA';
+}
+
+.cart:hover{
+    background-color: #02f11e;
+    transition:all 0ms ease-out;
+    
+}
+
+
+
+
+
+
+
+
 .dark-mode {
     background-image: url(image/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg);
     color: white;
@@ -74,7 +117,7 @@ body {
 .section-1 {
     color: white;
     padding: 2rem;
-    text-align: center;
+    text-align: -webkit-center;
     width: -webkit-fill-available;
 }
 
@@ -125,8 +168,9 @@ body {
 
 .kool {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.8rem;
+
 }
+
 .menu-items {
     display: none;
     list-style: none;
@@ -294,8 +338,8 @@ body {
     }
     
     .order-button{
-        margin: -0.05em;
-        font-size: 0.4em;
+        margin: 0.2em;
+        font-size: 0.7em;
     }
     .nayavn{
         font-size: large;
@@ -312,7 +356,11 @@ body {
     .menu-items a {
         margin-right: 2em;    
     }
-   
+    .dropdown-content{
+    width: 15em;
+    font-size: 0.9em;
+    top: 6em;
+    }
 }
 
 
@@ -335,10 +383,14 @@ body {
         margin-top: -3.7em;
     }
     .order-button{
-        margin: 0;
+        margin: 0.3em
     }
     .nayavn{
         font-size: large;
+    }
+    .dropdown-content{
+    font-size: 0.6em;
+    top: 9em;
     }
 }
 
