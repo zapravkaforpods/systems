@@ -13,11 +13,12 @@
 <body class="body">
     <header class="header">
         <div class="heades">
-           <a href="index.html"><img class="logo" src="image/Untitled2+.png" ></a>
+            <a href="index.html"><img class="logo" src="image/Untitled2+.png" ></a>
              <div class="wer" >
                     <ul class="nav-list ">
-                         <a  class="kool" href="https://t.me/IgorKis18" style="font-family: Georgia;size: 5px;"><button type="button" class="order-button">Замовити</button></a>
-                        <a  class="kool" href="https://send.monobank.ua/2yWJ3RbKRb" style="font-family: Georgia;size: 5px;"><button type="button" class="order-button">ОПЛАТА</button></a>
+                         <a  class="kool" href="https://t.me/IgorKis18" ><button type="button" class="order-button">Замовити</button></a>
+                         <button  type="button" class="order-button" onclick="toggleDropdown()">ОПЛАТА</button>
+                        
                     </ul> 
                 </div>
                 <div class="burger-menu">
@@ -31,8 +32,8 @@
                         <li>🟢<a href="elix.html">𝑬𝑳𝑰𝑿</a></li>
                         <li>🟢<a href="rozluv.html">РОЗЛИВ</a></li>
                         <li>🟢<a href="image/qr-code.jpg">𝑸𝑹-𝑪𝑶𝑫𝑬</a></li>
-                        <li>🌗►<button id="mode-toggle">🅞🅝</button></li>         
-                </ul>
+                        <li>🌗►<button id="mode-toggle">🅞🅝</button></li>
+                   </ul>
                      </div>
                 <script src="index.js"></script>
         </div> 
@@ -40,13 +41,18 @@
     </header>
     <main class="main">
         <section class="section section-1">
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#"><div class="container">
+                    <p id="content">5375 4141 3648 8896</p>
+                    <button class="cart" onclick="copyToClipboard()">Копіювати</button>
+                </div>
+            </a>
+            </div>   
             <div class="pospric">
                 <p class="posl" ><p  class="animated-text">Заправки від 𝑬𝑳𝑰𝑿"</p></p>
                 <p  class="price">𝑷𝑹𝑰𝑪𝑬-?грн</p>
              </div>  
         </section>
-         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6181420409305846"
-     crossorigin="anonymous"></script>
         <section class="section section-2">
             <div class="zob">
                 
@@ -74,4 +80,3 @@
     </footer>
 </body>
 </html>
-
