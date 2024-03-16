@@ -266,6 +266,15 @@ body {
     text-align: -webkit-center;
 }
 
+.roz{
+    border-radius: 12px;
+    background: #f73636;
+    border: 3px solid white;
+    color: white;
+    font-family: 'GEORGIA';
+    text-decoration: none;
+}
+
 @media (max-width:990px){
     .posl{
         font-size: xx-large;
