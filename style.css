@@ -104,9 +104,9 @@ body {
 }
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     margin: 0 1rem;
+    text-align: -webkit-center;
 }
 
 .section {
