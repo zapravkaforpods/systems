@@ -254,6 +254,16 @@ body {
     0% { color: rgb(21, 145, 176); }
     100% { color: rgb(163, 237, 3); }
 }
+.other{
+    color: rgb(235, 85, 15);
+    animation: other 2s infinite; 
+}
+
+@keyframes other {
+    0% { color: rgb(97, 0, 0); }
+    100% { color: rgb(237, 77, 3); }
+}
+
 .opus{
     font-size: x-large;
     margin: 1.2em;
