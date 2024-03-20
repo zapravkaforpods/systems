@@ -324,6 +324,12 @@ body {
     }
 }
 
+@media (min-width:660px){
+    .img {
+    max-width: 34%;
+    }
+}
+
 @media (min-width:560px){
     .menu-items.visible {
         width: 97%;
