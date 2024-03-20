@@ -328,6 +328,9 @@ body {
     .img {
     max-width: 34%;
     }
+     .animated-text{
+        font-size: 62px;
+    }
 }
 
 @media (min-width:560px){
