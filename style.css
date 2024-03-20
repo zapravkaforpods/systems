@@ -239,6 +239,7 @@ body {
     font-size: xxx-large;
     background-color: crimson;
     border-radius: 2em;
+    width:-webkit-fit-content;
 }
 .nayavn{
     color: #02f11e;
