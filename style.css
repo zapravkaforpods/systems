@@ -287,6 +287,11 @@ body {
     font-family: 'GEORGIA';
     text-decoration: none;
 }
+.opus-nuz{
+    color: white;
+    list-style: none;
+    text-align: justify;
+}
 
 @media (max-width:990px){
     .posl{
