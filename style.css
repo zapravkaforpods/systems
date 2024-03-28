@@ -64,7 +64,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     position: relative;
@@ -231,7 +231,6 @@ body {
     object-fit:contain;
     border-radius: 7em;
     border: 5px solid #0aff0d;
-    background: blanchedalmond;
 }
 .posl{
     font-size: xxx-large;
@@ -294,10 +293,6 @@ body {
     text-align: justify;
 }
 
-@media (min-width:1440px){
-.img {
-    max-width: 25%;
-}
 @media (max-width:990px){
     .posl{
         font-size: xx-large;
@@ -437,4 +432,3 @@ body {
     top: 9em;
     }
 }
-
