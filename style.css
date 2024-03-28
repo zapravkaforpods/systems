@@ -293,6 +293,10 @@ body {
     text-align: justify;
 }
 
+@media (min-width:1440px){
+.img {
+    max-width: 25%;
+}
 @media (max-width:990px){
     .posl{
         font-size: xx-large;
