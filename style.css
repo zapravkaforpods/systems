@@ -292,6 +292,17 @@
     list-style: none;
     text-align: justify;
 }
+@media (min-width:960px){
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: flex;
+    flex:auto;
+  }
+}
 
 @media (max-width:990px){
     .posl{
