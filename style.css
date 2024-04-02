@@ -301,6 +301,7 @@
   .row {
     display: flex;
     flex:auto;
+    justify-content: space-evenly;
   }
 }
 
