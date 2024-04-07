@@ -42,13 +42,13 @@
 
 
 .dark-mode {
-    background-image: url(image/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg);
-    color: white;
+       background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.9392944677871149) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
 }
 
 .light-mode {
-    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=1200&h=630);
-    color: #563636;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.7376137955182073) 0%, rgba(253,29,29,0.91968662464986) 25%, rgba(252,176,69,0.8496586134453782) 66%);
 }
 
 #mode-toggle{
@@ -68,6 +68,7 @@
     margin: 0;
     font-family: 'Raleway', sans-serif;
     position: relative;
+
    
 }
 
@@ -236,7 +237,7 @@
     font-size: xxx-large;
 }
 .price{
-    font-size: xxx-large;
+    font-size: x-large;
     background-color: crimson;
     border-radius: 2em;
     width:-webkit-fit-content;
@@ -277,6 +278,7 @@
     display:block;
     margin-top: 4em;
     text-align: -webkit-center;
+    margin-top: -5em;
 }
 
 .roz{
@@ -310,7 +312,7 @@
         font-size: xx-large;
     }
     .price{
-        font-size: xx-large;
+        font-size: x-large;
     }
     .nayavn{
         font-size: xx-large;
@@ -329,7 +331,7 @@
         font-size: x-large;
     }
     .price{
-        font-size: x-large;
+        font-size: large;
     }
     .nayavn{
         font-size: x-large;
@@ -343,6 +345,9 @@
     }
     .flash-text {
     font-size: 1.2em;
+    }
+    .elastic li {
+        font-size: x-small;
     }
 }
 
@@ -412,6 +417,12 @@
     font-size: 0.9em;
     top: 6em;
     }
+    .search-input {
+        background-size: 34px;
+        font-size: 1.4em;
+        width: 300px;
+      }
+     
 }
 
 
@@ -442,6 +453,15 @@
     .dropdown-content{
     font-size: 0.6em;
     top: 9em;
+    }
+    .search-input {
+        width: 250px;
+      }
+      .price{
+        font-size: small;
+      }
+      .elastic li {
+        font-size: xx-small;
     }
 }
 
@@ -490,3 +510,43 @@
     max-width: 58%;
 }
 }
+
+mark{
+    background: #02f11e;
+}
+
+#elastic{
+    display: block;
+    margin: 40px 0;
+      
+}
+.search-input {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/6711/6711440.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+    background-size: 43px;
+    font-size: 2em;
+    border-radius: 1.2em;
+    border: 2px solid cadetblue;
+  }   
+
+#tagList{
+    width: max-content;
+    background: #f29a2857;
+    border-radius: 15px;
+    border: 4px solid greenyellow;
+    text-align: start;
+}
+.elastic li{
+    transition: all ease 500ms;
+    color: white;
+    border: 2px solid black;
+    border-radius: 2em;
+    margin: 1.2em;
+}
+
+.elastic li.hide{
+    display: none;
+}
+
