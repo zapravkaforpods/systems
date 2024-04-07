@@ -48,10 +48,80 @@
                 </div>
             </a>
             </div> 
+            <div class="col-lg-12">
+                <h1>Search</h1>
+            </div>
+            
+            <div class="col-lg-12 from-control-group">
+                <input type="text" id="elastic" class="search-input">
+                <ul class="elastic" id="tagList" style="display:none;">
+                    <a href="ELIX 30ML БЛАК.МАЛ.М'ЯТА.html">
+                    <li>ELIX 30ML БЛАК.МАЛ.М'ЯТА</li>
+                </a>
+                    <a href="watermelon.html">
+                    <li>WATERMELON MELON 30 ML(50 mg)</li>
+                </a>
+                    <a href="ELIX 30ML Банан.html">
+                    <li>ELIX 30ML Банан</li>
+                </a>
+                <a href="30 ML MANGO&PEACH (50 mg).html">
+                    <li>30 ML MANGO&PEACH (50 mg)</li>
+                </a>
+                <a href="ELIX 30ML Червона малина.html"> 
+                    <li>ELIX 30ML Червона малина</li>
+                </a>
+                <a href="ELIX 30ML ЛІЧІ.HTML"> 
+                    <li>ELIX 30ML ЛІЧІ</li>
+                </a>
+                <a href="ELIX 30ML Кавун & М'ята.html"> 
+                    <li>ELIX 30ML Кавун & М'ята</li>
+                </a>
+                <a href="30 ML HONEYDEW PAPAYA (50 mg).html">
+                    <li>30 ML HONEYDEW PAPAYA (50 mg)</li>
+                </a>
+                <a href="30 ML COLA LEMON (50 mg).html"> 
+                    <li>30 ML COLA LEMON (50 mg)</li>
+                </a>
+                </ul>
+            </div>
+            
+            <script> 
+                let tagListVisible = false;
+                const tagList = document.getElementById('tagList');
+            
+                document.querySelector('#elastic').oninput = function(){
+                    let val = this.value.trim();
+                    let elasticItems = document.querySelectorAll('.elastic li');
+                    
+                    if (val != ''){
+                        tagList.style.display = 'block';
+                        elasticItems.forEach(function (elem) {
+                            if (elem.innerText.search(val) == -1) {
+                                elem.classList.add('hide');
+                                elem.innerHTML = elem.innerText;
+                            } else {
+                                elem.classList.remove('hide');
+                                let str = elem.innerText;
+                                elem.innerHTML = insertMark(str, elem.innerText.search(val), val.length);
+                            }
+                        }); 
+                    }
+                    else {
+                        tagList.style.display = 'none';
+                        elasticItems.forEach(function (elem) {
+                            elem.classList.add('hide');
+                            elem.innerHTML = elem.innerText;
+                        });
+                    }
+                }
+            
+                function insertMark(string, pos, len){
+                    return string.slice(0, pos)+'<mark>'+string.slice(pos, pos+len)+'</mark>'+string.slice(pos+len);
+                } 
+            </script>
         <section class="section section-1">  
              <div class="pospric">
                 <p class="posl" ><p  class="animated-text">Об'єм10ml</p></p>
-                <p  class="price">𝑷𝑹𝑰𝑪𝑬-9️⃣5️⃣грн</p>
              </div>  
         </section>
         <section class="section section-2">
