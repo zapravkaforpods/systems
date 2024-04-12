@@ -1,0 +1,65 @@
+{
+    "background_color": "#ffffff",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "zapravkaforpods",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "ZAPRAVKA",
+    "start_url": "https://zapravkaforpods.pp.ua",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "image/Untitled2+.png",
+        "type": "image/png",
+        "sizes": "265x264"
+      },
+      {
+        "src": "image/60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      },
+      {
+        "src": "image/64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "image/72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "image/80.png",
+        "type": "image/png",
+        "sizes": "80x80"
+      },
+      {
+        "src": "image/87.png",
+        "type": "image/png",
+        "sizes": "87x87"
+      },
+      {
+        "src": "image/100.png",
+        "type": "image/png",
+        "sizes": "100x100"
+      },
+      {
+        "src": "image/114.png",
+        "type": "image/png",
+        "sizes": "114x114"
+      },
+      {
+        "src": "image/120.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "image/128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      }
+    ],
+    "description": "zapravkaforpods",
+    "lang": "uk"
+  }
