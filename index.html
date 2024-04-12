@@ -2,28 +2,6 @@
 <html lang="en">
 <head>
      <meta property="og:image" content="image/Untitled2+.png">
-     <link rel="manifest" href="/manifest.json">
-     <script src="/pwabuilder-sw.js.">
-          
-     </script>
-     <script>
-const CACHE = "pwabuilder-offline";
-
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-
-self.addEventListener("message", (event) => {
-  if (event.data && event.data.type === "SKIP_WAITING") {
-    self.skipWaiting();
-  }
-});
-
-workbox.routing.registerRoute(
-  new RegExp('/*'),
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: CACHE
-  })
-);
-     </script>
     <meta charset="utf-8">
     <link rel="icon" href="image/Untitled2+.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
