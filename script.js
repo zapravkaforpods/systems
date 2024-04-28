@@ -6,7 +6,7 @@ const logoutButton = document.getElementById('logoutButton');
 
 // Створення локального сховища для зберігання даних користувачів
 const users = JSON.parse(localStorage.getItem('users')) || [];
-/*
+
 // Функція реєстрації користувача
 function registerUser(username, password) {
     // Перевірка, чи існує вже користувач з таким логіном
@@ -30,7 +30,7 @@ function registerUser(username, password) {
     registrationForm.style.display = 'none';
     loginForm.style.display = 'none';
 }
-*/
+
 // Функція входу користувача
 function loginUser(username, password) {
     // Перевірка даних користувача
@@ -50,7 +50,7 @@ function loginUser(username, password) {
 }
 
 // Обробка події реєстрації
-/*
+
 registrationForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
@@ -59,7 +59,7 @@ registrationForm.addEventListener('submit', (event) => {
 
     registerUser(username, password);
 });
-*/
+
 // Обробка події входу
 loginForm.addEventListener('submit', (event) => {
     event.preventDefault();
