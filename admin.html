@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-сторінка з формою</title>
+</head>
+<body>
+    <h1>Вхід</h1>
+
+    <form id="loginForm">
+        <label for="username">Логін:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Увійти</button>
+    </form>
+
+    <div id="mainContent" style="display: none;">
+        <h2>Форма для тексту</h2>
+
+        <textarea id="textArea" rows="10" cols="50"></textarea>
+
+        <button id="saveButton">Зберегти</button>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const mainContent = document.getElementById('mainContent');
+        const textArea = document.getElementById('textArea');
+        const saveButton = document.getElementById('saveButton');
+
+        loginForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Тут можна перевірити логін та пароль за допомогою AJAX або іншого методу
+
+            if (username === 'zapravka2024' && password === '10377710') {
+                loginForm.style.display = 'none';
+                mainContent.style.display = 'block';
+            } else {
+                alert('Неправильний логін або пароль');
+            }
+        });
+
+        saveButton.addEventListener('click', () => {
+            const text = textArea.value;
+
+            // Тут можна зберегти текст за допомогою AJAX або іншого методу
+
+            alert('Текст збережено');
+        });
+        // Зберігання тексту
+saveButton.addEventListener('click', () => {
+    const text = textArea.value;
+
+    // Зберігаємо текст у localStorage
+    localStorage.setItem('savedText', text);
+
+    alert('Текст збережено');
+});
+
+// Завантаження тексту
+window.addEventListener('load', () => {
+    const savedText = localStorage.getItem('savedText');
+
+    if (savedText) {
+        textArea.value = savedText;
+    }
+});
+
+    </script>
+</body>
+</html>
