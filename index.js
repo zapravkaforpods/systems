@@ -180,7 +180,6 @@ const myList = document.getElementById('myList');
 
 // Додайте елементи до списку
 myList.innerHTML = `
- <li>Ти cool</li>
 <a href="ELIX 30ML БЛАК.МАЛ.М'ЯТА.html">
                 
                     <li>Elix 30ML БЛАК.МАЛ.М'ЯТА</li>
