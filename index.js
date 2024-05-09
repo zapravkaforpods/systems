@@ -293,6 +293,19 @@ myList.innerHTML = `
                    <a href="вишня&ментол.html">
                     <li>Chaser Вишня&Ментол 10ml (50mg)</li>
                 </a>  
+                  <a href="Elix 30ml груша.html">
+                <li>Elix 30ml Груша (50mg)</li>
+            </a>
+            <a href="Elix 30ml зелене яблуко.html">
+                <li>Elix 30ml Зелене яблуко (50mg)</li>
+            </a>
+            <a href="Elix 30ml лісові ягоди.html">
+                <li>Elix 30ml Лісові ягоди (50mg)</li>
+            </a>
+            <a href="Elix 30ml мʼята.html">
+                <li>Elix 30ml Мʼята (50mg)</li>
+            </a>
+
 `;
 
 // Функція для додавання елемента до списку
