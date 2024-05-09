@@ -305,6 +305,10 @@ myList.innerHTML = `
             <a href="Elix 30ml мʼята.html">
                 <li>Elix 30ml Мʼята (50mg)</li>
             </a>
+            <a href="Elix 30ml суниця.html">
+                <li>Elix 30ml Суниця (50mg)</li>
+            </a>
+
 
 `;
 
