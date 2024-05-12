@@ -137,7 +137,7 @@ color: white;
 margin-top: 2rem;
 }
 
-#logo {
+.logo {
    height: 5rem;
    width: 5rem;
     background-image: url('image/Untitled2+.png'); /* Замінити на URL вашого логотипу */
