@@ -137,8 +137,24 @@ color: white;
 margin-top: 2rem;
 }
 
-.logo {
-height: 5rem;
+#logo {
+   height: 5rem;
+   width: 5rem;
+    background-image: url('image/Untitled2+.png'); /* Замінити на URL вашого логотипу */
+    background-size: cover;
+    animation: zoom 2s ease-in-out infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(-1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(-1);
+    }
 }
 
 .order-button {
