@@ -138,20 +138,7 @@ margin-top: 2rem;
 }
 
 .logo {
-    background-size: cover;
-    animation: zoom 2s ease-in-out infinite;
-}
-
-@keyframes zoom {
-    0% {
-        transform: scale(-1);
-    }
-    50% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(-1);
-    }
+    width: 6rem;
 }
 
 .order-button {
