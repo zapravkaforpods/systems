@@ -137,10 +137,23 @@ color: white;
 margin-top: 2rem;
 }
 
+
 .logo {
-    width: 6rem;
+    background-size: cover;
+    animation: zoom 2s ease-in-out infinite;
 }
 
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .order-button {
 background-color: #181717;
 border: none;
@@ -365,8 +378,9 @@ max-width: 40%;
 .menu-items.visible {
     width: 97%;
 }
-.logo {
+.logo{
     width: 6rem;
+}
 }
 
 @media (max-width:560px){
