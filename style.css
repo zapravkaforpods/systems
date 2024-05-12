@@ -378,6 +378,8 @@ max-width: 40%;
 .menu-items.visible {
     width: 97%;
 }
+.logo {
+    width: 6rem;
 }
 
 @media (max-width:560px){
