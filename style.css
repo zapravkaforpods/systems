@@ -81,6 +81,7 @@ position: fixed;
 width: 100%;
 z-index: 1;
 top: 0em;
+height: 6em;
 }
 
 .heades{
@@ -379,7 +380,7 @@ max-width: 40%;
     width: 97%;
 }
 .logo{
-    width: 6rem;
+    width: 5rem;
 }
 }
 
