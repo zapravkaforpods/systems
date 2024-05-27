@@ -274,15 +274,15 @@ myList.innerHTML = `
                     <li>Картридж VAPARESSO на 0,8 OM; 0,6OM.</li>
                 </a>
                 <a href="Chaser Блакитна малина 30ml (50mg).html">
-                    <li>Chaser Блакитна малина 30ml (50mg)</li>
+                    <li>Chaser Кавун & Ментол 30ml (50mg)</li>
                 </a><a href="Chaser Вишня ментол 30ml (50mg).html">
-                    <li>Chaser Вишня & Ментол 30ml (50mg)</li>
+                    <li>Chaser Вишня 30ml (50mg)</li>
                 </a><a href="Chaser Полуниця  30ml (50mg).html">
                     <li>Chaser Полуниця 30ml (50mg)</li>
                 </a><a href="Chaser Смородина & Ментол 30ml (50mg).html">
-                    <li>Chaser Смородина & Ментол 30ml (50mg)</li>
+                    <li>Chaser Банан 30ml (50mg)</li>
                 </a><a href="Chaser Чорниця & Ментол 30ml (50mg).html">
-                    <li>Chaser Чорниця & Ментол 30ml (50mg)</li>
+                    <li>Chaser Ківі 30ml (50mg)</li>
                 </a>
                     <a href="Chaser Ягоди 30ml (50mg).html">
                     <li>Chaser Ягоди 30ml (50mg)</li>
@@ -310,6 +310,12 @@ myList.innerHTML = `
             </a>
             <a href="Elix М'ята 10ml.html">
             <li>Elix М'ята 10ml</li>
+            </a>
+            <a href="chaser 30ml peach.html">
+            <li>Chaser 30ml Персик</li>
+            </a>
+            <a href="chaser 30ml ананас.html">
+            <li>Chaser 30ml Ананас</li>
             </a>
 
 
