@@ -314,7 +314,7 @@ myList.innerHTML = `
             <a href="chaser 30ml peach.html">
             <li>Chaser 30ml Персик</li>
             </a>
-            <a href="chaser 30ml ананас.html">
+            <a href="chaser ананас 30ml.html">
             <li>Chaser 30ml Ананас</li>
             </a>
 
