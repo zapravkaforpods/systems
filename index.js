@@ -281,7 +281,7 @@ myList.innerHTML = `
                     <li>Chaser Полуниця 30ml (50mg)</li>
                 </a><a href="Chaser Смородина & Ментол 30ml (50mg).html">
                     <li>Chaser Банан 30ml (50mg)</li>
-                </a><a href="Chaser Чорниця & Ментол 30ml (50mg).html">
+                </a><a href="chaser 30ml ківі.html">
                     <li>Chaser Ківі 30ml (50mg)</li>
                 </a>
                     <a href="Chaser Ягоди 30ml (50mg).html">
