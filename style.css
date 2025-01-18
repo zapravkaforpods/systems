@@ -81,7 +81,7 @@ position: fixed;
 width: 100%;
 z-index: 1;
 top: 0em;
-height: 3em;
+height: 4em;
 }
 
 .heades{
@@ -90,7 +90,7 @@ width: 100%;
 .burger-menu{
     text-align: end;
         display: block;
-    margin-top: -4.2em;
+    margin-top: -5.2em;
 }
 .burger-icon {
     margin-left: 2em;
@@ -138,8 +138,10 @@ margin-top: 2rem;
 
 
 .logo {
-    background-size: cover;
+    width: 4em;
     animation: zoom 2s ease-in-out infinite;
+    margin-top: -2.05em;
+    margin-left: 1em;
 }
 
 @keyframes zoom {
