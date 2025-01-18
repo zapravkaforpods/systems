@@ -73,7 +73,7 @@ position: relative;
 }
 
 .header {
-background-image: url(https://www.publicdomainpictures.net/pictures/290000/nahled/red-and-black-texture-background.jpg);
+background-color: #53a5b77a;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -81,7 +81,7 @@ position: fixed;
 width: 100%;
 z-index: 1;
 top: 0em;
-height: 6em;
+height: 3em;
 }
 
 .heades{
