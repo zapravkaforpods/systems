@@ -73,7 +73,7 @@ position: relative;
 }
 
 .header {
-background-color: #53a5b77a;
+background-color: #53a5b7c9;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -141,7 +141,7 @@ margin-top: 2rem;
 .logo {
     width: 4em;
     animation: zoom 2s ease-in-out infinite;
-    margin-top: -0.05em;
+    margin-top: -0.7em;
     margin-left: 1em;
 }
 }
