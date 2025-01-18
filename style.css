@@ -88,9 +88,10 @@ height: 4em;
 width: 100%;
 }
 .burger-menu{
-    text-align: end;
-        display: block;
-    margin-top: -5.2em;
+    display: flex;
+    margin-top: -3.5em;
+    justify-content: flex-end;
+
 }
 .burger-icon {
     margin-left: 2em;
@@ -140,8 +141,9 @@ margin-top: 2rem;
 .logo {
     width: 4em;
     animation: zoom 2s ease-in-out infinite;
-    margin-top: -2.05em;
+    margin-top: -0.05em;
     margin-left: 1em;
+}
 }
 
 @keyframes zoom {
@@ -379,9 +381,7 @@ max-width: 40%;
 .menu-items.visible {
     width: 97%;
 }
-.logo{
-    width: 5rem;
-}
+
 }
 
 @media (max-width:560px){
@@ -392,10 +392,7 @@ max-width: 40%;
 .heades{
     height: 5.1em;
 }
-.logo{
-    margin: 0.5em;
-    height: 4em;
-}
+
 .nav-list{
 display: flex;
 flex-direction: column;
