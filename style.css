@@ -86,9 +86,13 @@ height: 4em;
 width: 100%;
 }
 .burger-menu{
-    display: flex;
+/*     display: flex;
     margin-top: -3.5em;
-    justify-content: flex-end;
+    justify-content: flex-end; */
+    position: fixed; /* або relative, залежно від вашого макету */
+  top: 0;
+  right: 0;
+  z-index: 999;
 
 }
 .burger-icon {
@@ -187,17 +191,25 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .menu-items {
-display: none;
+/* display: none;
 list-style: none;
 border-radius: 15px;
 border: 2px solid #2b3731ab;
-background-color: #ffffffeb;
+background-color: #ffffffeb; */
+    display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  height: 0; /* спочатку приховуємо меню */
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
 }
 
 .menu-items.visible {
-display: flex;
+/* display: flex;
 position: absolute;
-top: 4.5em;
+top: 4.5em; */
+ height: auto; /* розкриваємо меню */
 }
 
 .menu-items li {
