@@ -7,17 +7,6 @@ burgerIcon.addEventListener('click', () => {
     burgerIcon.textContent = menuItems.classList.contains('visible') ? '❎' : '㊂'; 
 });
 
-
-
-const burgerIcon = document.querySelector('.burger-icon');
-const menuItems = document.querySelector('.menu-items');
-
-burgerIcon.addEventListener('click', () => {
-  menuItems.classList.toggle('visible');
-});
-
-
-
 ///////////////
 const modeToggle = document.getElementById('mode-toggle');
 if (localStorage.getItem('backgroundChanged') === 'true') {
