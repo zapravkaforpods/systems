@@ -42,13 +42,11 @@ transition:all 0ms ease-out;
 
 
 .dark-mode {
-   background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,0.9392944677871149) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
+   background: #1b972a;
 }
 
 .light-mode {
-background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,0.7376137955182073) 0%, rgba(253,29,29,0.91968662464986) 25%, rgba(252,176,69,0.8496586134453782) 66%);
+background: #08330d;
 }
 
 #mode-toggle{
@@ -73,7 +71,7 @@ position: relative;
 }
 
 .header {
-background-color: #53a5b7c9;
+background-color: #ffffffeb;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -100,7 +98,6 @@ width: 100%;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    border: 2px silver;
     cursor: pointer;
     margin-right: 0.2em;
 }
@@ -192,10 +189,9 @@ font-family: 'Times New Roman', Times, serif;
 .menu-items {
 display: none;
 list-style: none;
-border-radius: 42px;
-border: 4px solid #2b3731ab;
-background-image: url(https://www.publicdomainpictures.net/pictures/290000/nahled/red-and-black-texture-background.jpg);
-background-size:cover;
+border-radius: 15px;
+border: 2px solid #2b3731ab;
+background-color: #ffffffeb;
 }
 
 .menu-items.visible {
@@ -205,19 +201,17 @@ top: 4.5em;
 }
 
 .menu-items li {
-margin: 2em auto;
+margin: 0.5em auto;
 }
 
 .menu-items a {
-text-decoration: none;
-color: #fffb03d4;
-font-family: 'Arial', sans-serif;
-font-size: 26px;
-border-radius: 12px;
-background: #f73636;
-border: 3px solid white;
-color: white;
-font-family: 'GEORGIA';
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #1b972a;
+    border: 1.5px solid black;
+    color: white;
+    font-family: 'georgia';
 }
 
 .menu-items a:hover{
@@ -379,7 +373,7 @@ max-width: 40%;
 
 @media (min-width:560px){
 .menu-items.visible {
-    width: 97%;
+    width: 100%;
 }
 
 }
