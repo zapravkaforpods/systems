@@ -219,7 +219,7 @@ transition: 0ms;
 }
 
 #tagList {
-    background: #a2b41952;
+   background: #a2b41952;
     border-radius: 15px;
     width: 37%;
 }
@@ -546,11 +546,7 @@ border-radius: 1.2em;
 border: 2px solid cadetblue;
 }   
 
-#tagList{
-background: #f29a2857;
-border-radius: 15px;
-border: 4px solid greenyellow;
-}
+
 .elastic li{
 transition: all ease 500ms;
 color: white;
