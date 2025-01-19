@@ -218,6 +218,11 @@ background-color: #02f11e;
 transition: 0ms;
 }
 
+#tagList {
+    background: #a2b41952;
+    border-radius: 15px;
+    width: 37%;
+}
 @keyframes textAnimation {
 0% { opacity: 0; transform: translateY(-20px); }
 50% { opacity: 1; transform: translateY(0); }
