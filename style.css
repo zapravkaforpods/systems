@@ -83,7 +83,12 @@ height: 4em;
 }
 
 .heades{
-width: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .burger-menu{
 /*     display: flex;
@@ -135,12 +140,26 @@ color: white;
 margin-top: 2rem;
 }
 
+.heades li{
+    margin:5em;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #1b972a;
+    border: 1.5px solid black;
+    color: #755151;
+    font-family: 'georgia';
+}
 
+.heades li a{
+
+    text-decoration-line: none;
+}
 .logo {
     width: 4em;
-    animation: zoom 2s infinite;
-    margin-top: -2em;
-    margin-left: 1em;
+    position: absolute;
+    top: 0;
+    left: 0.1;
 }
 }
 
