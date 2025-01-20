@@ -86,9 +86,10 @@ height: 4em;
 width: 100%;
 }
 .burger-menu{
-    display: flex;
-    margin-top: -3.5em;
-    justify-content: flex-end;
+/*     display: flex;
+    margin-top: 13.5em;
+    justify-content: flex-end; */
+    display:none;
 }
 .burger-icon {
     margin-left: 2em;
@@ -527,8 +528,8 @@ background: #02f11e;
 }
 
 #elastic{
-display: block;
-margin: 40px 0;
+margin: 20px 0;
+margin-top: 3em;
   
 }
 .search-input {
