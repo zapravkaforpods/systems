@@ -91,20 +91,21 @@ width: 100%;
     justify-content: flex-end;
 }
 .burger-icon {
-    margin-left: 2em;
+/*     margin-left: 2em;
     font-size: 1.8em;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     cursor: pointer;
-    margin-right: 0.2em;
+    margin-right: 0.2em; */
+display:none;
 }
 
 .main {
 display: block;
 margin: 0 1rem;
-text-align: -webkit-center;
+text-align: -webkit-right;
 }
 
 .section {
@@ -136,8 +137,8 @@ margin-top: 2rem;
 
 .logo {
     width: 4em;
-    animation: zoom 2s ease-in-out infinite;
-    margin-top: -0.7em;
+    animation: zoom 2s infinite;
+    margin-top: -2em;
     margin-left: 1em;
 }
 }
@@ -186,17 +187,18 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .menu-items {
-display: none;
+/* display: none; */
+
 list-style: none;
-border-radius: 15px;
+/* border-radius: 15px;
 border: 2px solid #2b3731ab;
-background-color: #ffffffeb;
+background-color: #ffffffeb; */
 }
 
 .menu-items.visible {
 display: flex;
 position: absolute;
-top: 4.5em;
+top: -0.1em;
 }
 
 .menu-items li {
@@ -232,13 +234,8 @@ transition: 0ms;
 
 
 .animated-text {
-font-size: 24px;
-text-align: center;
-animation: textAnimation 3s linear infinite;
-color: black;
-width: fit-content;
-background-image: url(https://wp-lessons.com/wp-content/uploads/2014/07/110-660x330.jpg.pagespeed.ce.hQkzSA0r0E.jpg);
-border-radius: 2em;
+    text-align: center;
+    color: #ffffff;
 }
 .img{
 max-width: 103%;
@@ -535,14 +532,12 @@ margin: 40px 0;
   
 }
 .search-input {
-background-image: url("https://cdn-icons-png.flaticon.com/128/6711/6711440.png");
-background-repeat: no-repeat;
-background-position: right 10px center;
-padding-right: 30px;
-background-size: 43px;
-font-size: 2em;
-border-radius: 1.2em;
-border: 2px solid cadetblue;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/6711/6711440.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 43px;
+    font-size: 2em;
+    border-radius: 0.2em;
 }   
 
 
