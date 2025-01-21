@@ -246,7 +246,7 @@ transition: 0ms;
 #tagList {
    background: #a2b41952;
     border-radius: 15px;
-    width: 37%;
+    width: 18%;
 }
 @keyframes textAnimation {
 0% { opacity: 0; transform: translateY(-20px); }
@@ -567,10 +567,8 @@ margin-top: 3em;
 .elastic li{
 transition: all ease 500ms;
 color: white;
-border: 2px solid #fff5f5;
-border-radius: 2em;
 margin: 1.2em;
-margin-left: -1em;
+    border-radius: 2em;
 }
 
 .elastic a {
