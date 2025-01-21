@@ -89,6 +89,7 @@ height: 4em;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    height: 50%;
 }
 .burger-menu{
 /*     display: flex;
