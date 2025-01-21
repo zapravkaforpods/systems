@@ -338,10 +338,7 @@ display: flex;
 flex:auto;
 justify-content: space-evenly;
 }
-    .heades li {
-    margin: 4em;
-    font-size: 16px;
-}
+
 }
 
 @media (max-width:990px){
@@ -360,6 +357,10 @@ justify-content: space-evenly;
 }
 .animated-text{
     font-size: xxx-large;
+}
+    .heades li {
+margin: 4em;
+font-size: 16px;
 }
 }
 
