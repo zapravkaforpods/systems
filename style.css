@@ -149,6 +149,7 @@ margin-top: 2rem;
     border: 1.5px solid black;
     color: #755151;
     font-family: 'georgia';
+    list-style: none;
 }
 
 .heades li a{
