@@ -412,12 +412,12 @@ display: flex;
     .bukm{
         display:none;
     flex-direction: column;
-    margin-top: 16em;
+    margin-top: 14em;
     position: fixed;
     list-style: none;
 border-radius: 15px;
 border: 2px solid #2b3731ab;
-background-color: #ffffffeb;
+background-color: white;
         align-items: center;
     }
     .heades li a {
@@ -426,6 +426,13 @@ background-color: #ffffffeb;
     .burger-icon{
         display:flex;
     }
+.main{
+    text-align: center;
+}
+    .search-input {
+    font-size: 1.8em;
+}   
+
 }
 
 @media (min-width:660px){
@@ -462,8 +469,7 @@ margin-top: 0.5em;
 }
 
 .burger-menu{
-    margin-top: -3.4em;
-    width: -webkit-fill-available;
+        font-size: 0.9em;
 }
 
 .order-button{
@@ -516,9 +522,7 @@ margin-top: -4.75em;
     width: 28%;
 }
 
-.burger-menu{
-    margin-top: -3.7em;
-}
+
 .order-button{
     margin: 0.3em
 }
