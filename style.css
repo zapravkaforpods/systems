@@ -207,20 +207,23 @@ font-family: 'Times New Roman', Times, serif;
 
 .menu-items {
 display: none;
+#bukm{
 
+display: contents;
+}
 /* list-style: none;
 border-radius: 15px;
 border: 2px solid #2b3731ab;
 background-color: #ffffffeb; */
 }
 
-.menu-items.visible {
+/* .menu-items.visible {
 display: flex;
 position: absolute;
 top: -0.1em;
-}
+} */
 
-.menu-items li {
+/* .menu-items li {
 margin: 0.5em auto;
 }
 
@@ -238,7 +241,7 @@ margin: 0.5em auto;
 background-color: #02f11e;
 transition: 0ms;
 }
-
+ */
 #tagList {
    background: #a2b41952;
     border-radius: 15px;
@@ -402,6 +405,9 @@ font-size: 1.2em;
 .elastic li {
     font-size: x-small;
 }
+    #bukm{
+        display:none;
+    }
     .heades ul{
         display: flex;
     flex-direction: column;
@@ -416,6 +422,9 @@ background-color: #ffffffeb;
     .heades li a {
     color: white;
 }
+    .burger-icon{
+        display:flex;
+    }
 }
 
 @media (min-width:660px){
