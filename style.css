@@ -407,16 +407,14 @@ font-size: 1.2em;
 .elastic li {
     font-size: x-small;
 }
-  #bukm.visable  {
+  #bukm.visible  {
 display: flex;
 position: absolute;
 top: -0.1em;
 }
+    
     #bukm{
-        display:none;
-    }
-    #bukm{
-        display: flex;
+        display: none;
     flex-direction: column;
     margin-top: 16em;
     position: fixed;
