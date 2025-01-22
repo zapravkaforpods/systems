@@ -208,10 +208,10 @@ font-family: 'Times New Roman', Times, serif;
 .menu-items {
 display: none;
 
-list-style: none;
+/* list-style: none;
 border-radius: 15px;
 border: 2px solid #2b3731ab;
-background-color: #ffffffeb;
+background-color: #ffffffeb; */
 }
 
 .menu-items.visible {
@@ -371,8 +371,11 @@ font-size: 16px;
     justify-content: flex-end;   
     }
         .heades li {
-        margin: 2em;
+        margin: 1.5em;
         font-size: 12px;
+    }
+    .menu-items {
+    margin-top: 17em;
     }
 }
 
@@ -398,6 +401,20 @@ font-size: 1.2em;
 }
 .elastic li {
     font-size: x-small;
+}
+    .heades ul{
+        display: flex;
+    flex-direction: column;
+    margin-top: 16em;
+    position: fixed;
+    list-style: none;
+border-radius: 15px;
+border: 2px solid #2b3731ab;
+background-color: #ffffffeb;
+        align-items: center;
+    }
+    .heades li a {
+    color: white;
 }
 }
 
