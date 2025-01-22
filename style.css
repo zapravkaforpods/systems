@@ -35,7 +35,9 @@ transition:all 0ms ease-out;
 }
 
 
-
+#bukm{
+    display: contents;
+}
 
 
 
