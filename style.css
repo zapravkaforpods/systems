@@ -409,7 +409,7 @@ font-size: 1.2em;
 display: flex;
 }
     
-    #bukm{
+    .bukm{
         display:none;
     flex-direction: column;
     margin-top: 16em;
