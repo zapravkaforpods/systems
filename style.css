@@ -35,7 +35,7 @@ transition:all 0ms ease-out;
 }
 
 
-#bukm{
+.bukm{
     display: contents;
 }
 
@@ -209,9 +209,6 @@ font-family: 'Times New Roman', Times, serif;
 
 .menu-items {
 display: none;
-#bukm{
-
-display: contents;
 }
 /* list-style: none;
 border-radius: 15px;
@@ -407,14 +404,13 @@ font-size: 1.2em;
 .elastic li {
     font-size: x-small;
 }
-  .visible  {
+  
+    .bukm.visible  {
 display: flex;
-position: absolute;
-top: -0.1em;
 }
     
     #bukm{
-        display:flex;
+        display:none;
     flex-direction: column;
     margin-top: 16em;
     position: fixed;
