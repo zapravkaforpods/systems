@@ -414,7 +414,7 @@ top: -0.1em;
 }
     
     #bukm{
-        
+        display:flex;
     flex-direction: column;
     margin-top: 16em;
     position: fixed;
