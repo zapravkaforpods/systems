@@ -1,7 +1,7 @@
 
 
 const burgerIcon = document.querySelector('.burger-icon');
-const menuItems = document.querySelector('.menu-items');
+const menuItems = document.getElementById('bukm');
 burgerIcon.addEventListener('click', () => {
     menuItems.classList.toggle('visible');
     burgerIcon.textContent = menuItems.classList.contains('visible') ? '❎' : '㊂'; 
