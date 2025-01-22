@@ -408,7 +408,7 @@ font-size: 1.2em;
     #bukm{
         display:none;
     }
-    .heades ul{
+    #bukm{
         display: flex;
     flex-direction: column;
     margin-top: 16em;
