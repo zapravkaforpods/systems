@@ -55,8 +55,8 @@ background: #08330d;
 background-color: #f73636;
 width: 78px;
 border-radius: 30px;
-border: 4px solid white;
-color: antiquewhite;    
+color: antiquewhite;
+font-size: 1.2em;
 }
 
 
@@ -73,7 +73,7 @@ position: relative;
 }
 
 .header {
-background-color: white;
+background-color: #3f3d3d;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -145,15 +145,14 @@ margin-top: 2rem;
     text-decoration: none;
     font-size: 20px;
     border-radius: 8px;
-    background: #1b972a;
-    border: 1.5px solid black;
+    background: #000000;
     color: #755151;
     font-family: 'georgia';
     list-style: none;
 }
 
 .heades li a{
-
+    color: white;
     text-decoration-line: none;
 }
 .logo {
@@ -417,7 +416,7 @@ display: flex;
     list-style: none;
 border-radius: 15px;
 border: 2px solid #2b3731ab;
-background-color: white;
+background-color: #3f3d3d;
         align-items: center;
     }
     .heades li a {
