@@ -44,11 +44,21 @@ transition:all 0ms ease-out;
 
 
 .dark-mode {
-   background: #1b972a;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .light-mode {
-background: #08330d;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 #mode-toggle{
@@ -220,7 +230,7 @@ display: none;
 border-radius: 15px;
 border: 2px solid #2b3731ab;
 background-color: #ffffffeb; */
-}
+
 
 /* .menu-items.visible {
 display: flex;
@@ -276,7 +286,6 @@ font-size: xxx-large;
 }
 .price{
 font-size: x-large;
-background-color: crimson;
 border-radius: 2em;
 width:-webkit-fit-content;
 }
@@ -445,7 +454,7 @@ background-color: #3f3d3d;
     left: 0.2em;
 }
     #tagList{
-    wwidth: 100%;
+    width: 100%;
 }
 
 }
@@ -522,7 +531,7 @@ top: 6em;
 
 @media (max-width:430px){
 #tagList{
-    wwidth: 100%;
+    width: 100%;
 }
 .wer{
     margin-top: -5.2em;
@@ -642,4 +651,12 @@ display: none;
 #myList{
     padding: 0.6em;
 }
+
+.row a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+  
 
