@@ -4,7 +4,7 @@ const burgerIcon = document.querySelector('.burger-icon');
 const menuItems = document.querySelector('.bukm');
 burgerIcon.addEventListener('click', () => {
     menuItems.classList.toggle('visible');
-    burgerIcon.textContent = menuItems.classList.contains('visible') ? '❎' : '㊂'; 
+    burgerIcon.innerHTML = menuItems.classList.contains('visible') ? '✗' : '㊂';
 });
 
 ///////////////
@@ -228,3 +228,8 @@ function addListItem(itemText) {
 // Приклад використання функції
 addListItem('Новий елемент');
 
+// const burgerIcons = document.querySelectorAll('.burger-icon');
+
+// burgerIcons.forEach(icon => {
+//     icon.innerHTML  = '';
+// });
