@@ -215,7 +215,48 @@ myList.innerHTML =
 <a href="podsystem.html">
     <li>Под-системи</li>
 </a>
-                   
+<a href="Xros mini  Aurora.html">
+<li>Xros mini Aurora</li>
+</a> 
+<a href="Xros mini  Bronze Gold.html">
+    <li>Xros mini  Bronze Gold</li>
+</a>               
+<a href="Xros mini  Gold.html">
+    <li>Xros mini  Gold</li>
+</a>   
+<a href="Xros mini  Orange Red.html">
+    <li>Xros mini  Orange Red</li>
+</a>   
+<a href="xross 3 mini Aqua green.html">
+    <li><Xross 3 mini Aqua green</li>
+</a>   
+<a href="xross 3 mini Black .html">
+    <li>xross 3 mini Black </li>
+</a>   
+<a href="xross 3 mini Lemon Yellow.html">
+    <li>Xross 3 mini Lemon Yellow</li>
+</a>   
+<a href="xross 3 mini Lilac Purple .html">
+    <li>Xross 3 mini Lilac Purple</li>
+</a>   
+<a href="xross 3 mini Rose Pink.html">
+    <li>Xross 3 mini Rose Pink</li>
+</a>   
+<a href="xross 3 mini Sky Blue.html">
+    <li>Xross 3 mini Sky Blue</li>
+</a>   
+<a href="xross 3 mini Space grey.html">
+    <li>Xross 3 mini Space</li>
+</a> 
+ <a href="Alchemist Iceberg Mango.html">
+    <li>Alchemist Iceberg Mango 30ml</li>
+</a> 
+ <a href="Alchemist Marshmellow.html">
+    <li>Alchemist Marshmellow 30ml</li>
+</a>     
+<a href="Alchemist Pitaya Peach.html">
+    <li>Alchemist Pitaya Peach 30ml</li>
+</a>       
 `;
 
 // Функція для додавання елемента до списку
@@ -228,8 +269,15 @@ function addListItem(itemText) {
 // Приклад використання функції
 addListItem('Новий елемент');
 
-// const burgerIcons = document.querySelectorAll('.burger-icon');
-
-// burgerIcons.forEach(icon => {
-//     icon.innerHTML  = '';
-// });
+document.addEventListener('DOMContentLoaded', function() { // Переконаємось, що DOM завантажено
+    const ulElements = document.querySelectorAll('ul.bukm');
+  
+    ulElements.forEach(ul => {
+      const newLi = document.createElement('li');
+      const newA = document.createElement('a');
+      newA.href = '#ch2';
+      newA.textContent = 'Alchemist';
+      newLi.appendChild(newA);
+      ul.appendChild(newLi);
+    });
+  });
