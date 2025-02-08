@@ -39,6 +39,12 @@ transition:all 0ms ease-out;
     display: contents;
 }
 
+  
+  .bukm li:nth-child(2) {
+    order: 4; /* QR-код буде другим */
+  }
+  /* Іншим елементам можна задати order: 1 */
+
 
 
 
