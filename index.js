@@ -268,17 +268,9 @@ document.addEventListener('DOMContentLoaded', function() { // Переконає
   const elementToRemove = document.getElementById('mode-toggle');
   elementToRemove.parentNode.remove();
 
-//   document.addEventListener('DOMContentLoaded', function() { // Переконаємось, що DOM завантажено
-//     const dod = document.querySelectorAll('.bukm');
-  
-//     dod.forEach(ul => {
-//       const newLi = document.createElement('li');
-//       const newA = document.createElement('a');
-//       newA.href = 'index.html#ch1';
-//       newA.textContent = 'CHASER';
-//       newLi.appendChild(newA);
-//       ul.appendChild(newLi);
-//     });
-//   });
 const ul = document.querySelector('.bukm');
 ul.innerHTML += `<li><a href="index.html#ch1">𝑪𝑯𝑨𝑰𝑺𝑬𝑹</a></li> `; // += додає новий HTML до існуючого
+
+const dodoc = document.querySelector('head');
+dodoc.innerHTML += `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6181420409305846"
+     crossorigin="anonymous"></script>`; 
