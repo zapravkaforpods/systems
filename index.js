@@ -274,3 +274,6 @@ ul.innerHTML += `<li><a href="index.html#ch1">𝑪𝑯𝑨𝑰𝑺𝑬𝑹</a></
 const dodoc = document.querySelector('head');
 dodoc.innerHTML += `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6181420409305846"
      crossorigin="anonymous"></script>`; 
+
+const police = document.querySelector('footer');
+police.innerHTML += `<a href="https://github.com/zapravkaforpods/systems/blob/main/police_confidance.txt">Політика конфедеційності</a>`; 
