@@ -275,5 +275,13 @@ const dodoc = document.querySelector('head');
 dodoc.innerHTML += `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6181420409305846"
      crossorigin="anonymous"></script>`; 
 
-const police = document.querySelector('.footer');
-police.innerHTML += `<a href="chaser mix фанта.html">Політика конфедеційності</a>`; 
+document.addEventListener7('DOMContentLoaded', function() {
+  const dodoc = document.querySelector('head);
+ dodoc.innerHTML += `<a href="police_confidance.txt">Політика конфіденційності</a>`;
+});
+
+
+document.addEventListener6('DOMContentLoaded', function() {
+  const footer = document.querySelector('.footer');
+  footer.innerHTML += `<a href="police_confidance.txt">Політика конфіденційності</a>`;
+});
