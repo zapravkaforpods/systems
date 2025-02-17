@@ -276,4 +276,4 @@ dodoc.innerHTML += `<script async src="https://pagead2.googlesyndication.com/pag
      crossorigin="anonymous"></script>`; 
 
 const police = document.querySelector('.footer');
-police.innerHTML += `<a href="police_confidance.txt">Політика конфедеційності</a>`; 
+police.innerHTML += `<a href="chaser mix фанта.html">Політика конфедеційності</a>`; 
