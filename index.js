@@ -213,7 +213,7 @@ myList.innerHTML =
 <a href="xross 3 mini Aqua green.html">
     <li><Xross 3 mini Aqua green</li>
 </a>   
-<a href="xross 3 mini Black .html">
+<a href="xross 3 mini Black.html">
     <li>xross 3 mini Black </li>
 </a>   
 <a href="xross 3 mini Lemon Yellow.html">
