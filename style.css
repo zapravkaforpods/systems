@@ -535,7 +535,7 @@ top: 6em;
 
 @media (max-width:430px){
 #tagList{
-    width: 100%;
+    width: 90%;
 }
 .wer{
     margin-top: -5.2em;
