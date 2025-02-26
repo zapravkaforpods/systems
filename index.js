@@ -255,16 +255,21 @@ addListItem('Новий елемент');
 document.addEventListener('DOMContentLoaded', function() { // Переконаємось, що DOM завантажено
     const ulElements = document.querySelectorAll('.bukm');
   
-    ulElements.forEach(ul => {
+       ulElements.forEach(ul => {
       const newLi = document.createElement('li');
+      const newLi2 = document.createElement('li');
       const newA = document.createElement('a');
+      const crA = document.createElement('a');
+      crA.href = 'privacy_policy.html'; 
+      crA.textContent = 'Політика Конфеденційності';
       newA.href = 'index.html#ch2';
       newA.textContent = 'ALCHEMIST';
       newLi.appendChild(newA);
+      newLi2.appendChild(crA);
       ul.appendChild(newLi);
+      ul.appendChild(newLi2);
     });
   });
-
   const elementToRemove = document.getElementById('mode-toggle');
   elementToRemove.parentNode.remove();
 
