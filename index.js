@@ -260,8 +260,8 @@ document.addEventListener('DOMContentLoaded', function() { // Переконає
       const newLi2 = document.createElement('li');
       const newA = document.createElement('a');
       const crA = document.createElement('a');
-      crA.href = 'privacy_policy.html'; 
-      crA.textContent = 'Політика Конфеденційності';
+      crA.href = 'order.html'; 
+      crA.textContent = 'Замовити';
       newA.href = 'index.html#ch2';
       newA.textContent = 'ALCHEMIST';
       newLi.appendChild(newA);
