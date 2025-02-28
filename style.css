@@ -261,7 +261,6 @@ transition: 0ms;
 }
  */
 #tagList {
-   background: #a2b41952;
     border-radius: 15px;
     width: 18%;
 }
@@ -431,7 +430,7 @@ align-items: baseline;
     .bukm{
         display:none;
     flex-direction: column;
-    margin-top: 14em;
+    margin-top: 21em;
     position: fixed;
     list-style: none;
 border-radius: 15px;
