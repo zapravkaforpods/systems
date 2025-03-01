@@ -37,8 +37,18 @@ transition:all 0ms ease-out;
 
 .bukm{
     display: contents;
+    opacity: 0;
+  animation: fadeIn 0.9s ease-in-out forwards;
 }
-
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
   
   .bukm li:nth-child(2) {
     order: 4; /* QR-код буде другим */
@@ -229,37 +239,7 @@ font-family: 'Times New Roman', Times, serif;
 .menu-items {
 display: none;
 }
-/* list-style: none;
-border-radius: 15px;
-border: 2px solid #2b3731ab;
-background-color: #ffffffeb; */
 
-
-/* .menu-items.visible {
-display: flex;
-position: absolute;
-top: -0.1em;
-} */
-
-/* .menu-items li {
-margin: 0.5em auto;
-}
-
-.menu-items a {
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 8px;
-    background: #1b972a;
-    border: 1.5px solid black;
-    color: white;
-    font-family: 'georgia';
-}
-
-.menu-items a:hover{
-background-color: #02f11e;
-transition: 0ms;
-}
- */
 #tagList {
     border-radius: 15px;
     width: 18%;
@@ -430,7 +410,7 @@ align-items: baseline;
     .bukm{
         display:none;
     flex-direction: column;
-    margin-top: 21em;
+    margin-top: 16em;
     position: fixed;
     list-style: none;
 border-radius: 15px;
