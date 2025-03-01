@@ -6,7 +6,14 @@ burgerIcon.addEventListener('click', () => {
     menuItems.classList.toggle('visible');
     burgerIcon.innerHTML = menuItems.classList.contains('visible') ? '✗' : '㊂';
 });
+const menu = document.querySelector('.bukm');
+const burgerIco = document.querySelector('.burger-icon');
 
+burgerIco.addEventListener('click', () => {
+  menu.classList.toggle('show');
+ 
+
+});
 ///////////////
 
 const toggleButton = document.getElementById('mode-toggle');
