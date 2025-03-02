@@ -1,19 +1,22 @@
 
-
 const burgerIcon = document.querySelector('.burger-icon');
 const menuItems = document.querySelector('.bukm');
+let isVisible = false;
+
 burgerIcon.addEventListener('click', () => {
-    menuItems.classList.toggle('visible');
-    burgerIcon.innerHTML = menuItems.classList.contains('visible') ? '✗' : '㊂';
+  if (!isVisible) {
+    menuItems.classList.add('visible');
+    menuItems.classList.remove('visible2');
+    burgerIcon.innerHTML = '✗';
+    isVisible = true;
+  } else {
+    menuItems.classList.remove('visible');
+    menuItems.classList.add('visible2');
+    burgerIcon.innerHTML = '㊂';
+    isVisible = false;
+  }
 });
-const menu = document.querySelector('.bukm');
-const burgerIco = document.querySelector('.burger-icon');
 
-burgerIco.addEventListener('click', () => {
-  menu.classList.toggle('show');
- 
-
-});
 ///////////////
 
 const toggleButton = document.getElementById('mode-toggle');
@@ -36,10 +39,10 @@ toggleButton.addEventListener('click', () => {
         localStorage.setItem('modeEnabled', 'false'); 
     }
 });
+
 ///////////////
 
 const image = document.querySelector('.image');
-
 window.addEventListener('resize', () => {
   image.width = window.innerWidth;
 });
@@ -255,8 +258,6 @@ function addListItem(itemText) {
   newListItem.textContent = itemText;
   myList.appendChild(newListItem);
 }
-
-// Приклад використання функції
 addListItem('Новий елемент');
 
 document.addEventListener('DOMContentLoaded', function() { // Переконаємось, що DOM завантажено
@@ -287,7 +288,5 @@ const dodoc = document.querySelector('head');
 dodoc.innerHTML += `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6181420409305846"
      crossorigin="anonymous"></script>`; 
 
-document.addEventListener6('DOMContentLoaded', function() {
-  const footer = document.querySelector('.footer');
-  footer.innerHTML += `<a href="police_confidance.txt">Політика конфіденційності</a>`;
-});
+  const footer = document.querySelector('footer');
+  footer.innerHTML += `<a href="privacy_policy.html">Політика конфіденційності</a>`;
