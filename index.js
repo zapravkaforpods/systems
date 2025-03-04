@@ -287,6 +287,9 @@ ul.innerHTML += `<li><a href="index.html#ch1">𝑪𝑯𝑨𝑰𝑺𝑬𝑹</a></
 const dodoc = document.querySelector('head');
 dodoc.innerHTML += `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6181420409305846"
      crossorigin="anonymous"></script>`; 
+dodoc.innerHTML += `<meta name="google-adsense-account" content="ca-pub-6181420409305846">`; 
+dodoc.innerHTML += `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6181420409305846"
+     crossorigin="anonymous"></script>`;
 
   const footer = document.querySelector('footer');
   footer.innerHTML += `<a href="privacy_policy.html">Політика конфіденційності</a>`;
